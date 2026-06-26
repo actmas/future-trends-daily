@@ -1,0 +1,64 @@
+{
+  "date": "2026-06-26",
+  "fetched_at": "2026-06-26 12:01:31 北京时间",
+  "sources": {
+    "reddit_top": [],
+    "hackernews_top": [],
+    "reuters_world": [],
+    "bbc_business": [],
+    "github_trending": [],
+    "producthunt_today": []
+  },
+  "blocked_sources": [
+    "amazon.com",
+    "x.com",
+    "twitter.com",
+    "xiaohongshu.com",
+    "smzdm.com",
+    "baidu.com",
+    "google.com"
+  ],
+  "analysis": {
+    "themes": [
+      {
+        "name": "AI 工具平民化",
+        "evidence": "技术社区主流话题集中在 AI 落地",
+        "heat": "升温中"
+      }
+    ],
+    "opportunities": [
+      {
+        "title": "AI Agent 技能模板商店",
+        "category": "SaaS",
+        "entry_cost": "低",
+        "time_to_cash": "1-3月",
+        "rationale": "agent-skills、superpowers 等项目爆发,大量 AI 编程 agent 缺乏高质量技能包。建立垂直领域的技能市场,收 30% 分成。"
+      },
+      {
+        "title": "出海英语短视频 AI 配音",
+        "category": "内容",
+        "entry_cost": "低",
+        "time_to_cash": "1-3月",
+        "rationale": "中国卖家做 TikTok/YouTube Shorts 需要英语配音,ElevenLabs 类工具单条成本高。做按条计费的 SaaS,目标 30 万跨境中小卖家。"
+      },
+      {
+        "title": "小团队 AI 流程顾问",
+        "category": "服务",
+        "entry_cost": "低",
+        "time_to_cash": "1-3月",
+        "rationale": "欧美 10-50 人公司不知道如何把 AI agent 嵌入现有工作流。1-2 人顾问团队,按项目收 1-5 万美金,从 Replit / Cursor 客户切入。"
+      },
+      {
+        "title": "开源医疗 AI 二开服务",
+        "category": "SaaS",
+        "entry_cost": "中",
+        "time_to_cash": "3-6月",
+        "rationale": "openmed 等开源医疗模型出现,诊所 / 心理咨询机构需要本地化部署 + 数据合规服务。技术团队 2-3 人,客单价 5-20 万。"
+      }
+    ],
+    "red_flags": [
+      "通用聊天机器人 — 大厂已红海,差异化难",
+      "无差异的 AI 绘图工具 — Midjourney / Sora 占据心智"
+    ]
+  }
+}

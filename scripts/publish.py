@@ -123,7 +123,7 @@ def publish():
 
     # 3. Create fresh worktree on gh-pages
     _run(["git", "fetch", "origin"], cwd=PROJECT, check=False)
-    _run(["git", "worktree", "add", "--branch", "gh-pages",
+    _run(["git", "worktree", "add", "-b", "gh-pages",
          str(WORKTREE), "origin/main"], cwd=PROJECT, check=True)
     _run(["git", "checkout", "gh-pages"], cwd=PROJECT, check=False)
     # back in main worktree, worktree is at WORKTREE

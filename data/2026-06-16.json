@@ -1,0 +1,251 @@
+{
+  "date": "2026-06-16",
+  "fetched_at": "2026-06-16 12:01:30 北京时间",
+  "sources": {
+    "reddit_top": [],
+    "hackernews_top": [],
+    "reuters_world": [],
+    "bbc_business": [
+      {
+        "title": "Thames Water moves step closer to nationalisation after government objects to rescue deal",
+        "url": "https://www.bbc.com/news/articles/cly089d0wl7o?at_medium=RSS&amp;at_campaign=rss",
+        "source": "bbc-business"
+      },
+      {
+        "title": "Japan raises interest rate to highest since 1995",
+        "url": "https://www.bbc.com/news/articles/cjdgl213dpzo?at_medium=RSS&amp;at_campaign=rss",
+        "source": "bbc-business"
+      },
+      {
+        "title": "How could the US-Iran deal affect oil prices and the cost of food?",
+        "url": "https://www.bbc.com/news/articles/cd0p8me2m5do?at_medium=RSS&amp;at_campaign=rss",
+        "source": "bbc-business"
+      },
+      {
+        "title": "SpaceX IPO raised $10bn more than thought",
+        "url": "https://www.bbc.com/news/articles/cgrk21wnvy9o?at_medium=RSS&amp;at_campaign=rss",
+        "source": "bbc-business"
+      },
+      {
+        "title": "Oil prices fall and shares jump after US-Iran deal announced",
+        "url": "https://www.bbc.com/news/articles/c6217106px6o?at_medium=RSS&amp;at_campaign=rss",
+        "source": "bbc-business"
+      },
+      {
+        "title": "What is Helium-3 and could we get it from the moon?",
+        "url": "https://www.bbc.com/news/articles/ce8jmg2e4kro?at_medium=RSS&amp;at_campaign=rss",
+        "source": "bbc-business"
+      },
+      {
+        "title": "What's happening to UK petrol and diesel prices now the US and Iran have a deal?",
+        "url": "https://www.bbc.com/news/articles/c20zgjzz0e4o?at_medium=RSS&amp;at_campaign=rss",
+        "source": "bbc-business"
+      },
+      {
+        "title": "Anthropic to meet White House over AI tool suspension",
+        "url": "https://www.bbc.com/news/articles/c9w2p7ykp8yo?at_medium=RSS&amp;at_campaign=rss",
+        "source": "bbc-business"
+      },
+      {
+        "title": "Is the convertible heading into the sunset?",
+        "url": "https://www.bbc.com/news/articles/cx212yy4er0o?at_medium=RSS&amp;at_campaign=rss",
+        "source": "bbc-business"
+      },
+      {
+        "title": "Millions of people can get discounts on their bills - here's how",
+        "url": "https://www.bbc.com/news/articles/c4gyplpyj00o?at_medium=RSS&amp;at_campaign=rss",
+        "source": "bbc-business"
+      },
+      {
+        "title": "Financial losses from scams hit £1.3bn a year as criminals turn to AI",
+        "url": "https://www.bbc.com/news/articles/cwykp9ygxlvo?at_medium=RSS&amp;at_campaign=rss",
+        "source": "bbc-business"
+      },
+      {
+        "title": "Fox to buy Roku streaming firm in $22bn deal",
+        "url": "https://www.bbc.com/news/articles/cql1yew3vezo?at_medium=RSS&amp;at_campaign=rss",
+        "source": "bbc-business"
+      },
+      {
+        "title": "UK electric car sales target set to be weakened",
+        "url": "https://www.bbc.com/news/articles/cx2dmwmj4dmo?at_medium=RSS&amp;at_campaign=rss",
+        "source": "bbc-business"
+      },
+      {
+        "title": "Elon Musk's stratospheric rise to trillionaire status - in charts",
+        "url": "https://www.bbc.com/news/articles/c4gyp523ly8o?at_medium=RSS&amp;at_campaign=rss",
+        "source": "bbc-business"
+      },
+      {
+        "title": "UK and Japan agree £18bn investment deal",
+        "url": "https://www.bbc.com/news/articles/cx2kjwgwxwlo?at_medium=RSS&amp;at_campaign=rss",
+        "source": "bbc-business"
+      },
+      {
+        "title": "Why the US economy keeps defying the odds",
+        "url": "https://www.bbc.com/news/articles/cwy031el03po?at_medium=RSS&amp;at_campaign=rss",
+        "source": "bbc-business"
+      },
+      {
+        "title": "Anthropic suspends new AI tools over US government security concerns",
+        "url": "https://www.bbc.com/news/articles/c932g3v3e13o?at_medium=RSS&amp;at_campaign=rss",
+        "source": "bbc-business"
+      },
+      {
+        "title": "Elon Musk becomes world's first trillionaire as SpaceX soars in stock market debut",
+        "url": "https://www.bbc.com/news/articles/c4gypy3wwl7o?at_medium=RSS&amp;at_campaign=rss",
+        "source": "bbc-business"
+      },
+      {
+        "title": "UK vows to phase out Russian diesel and jet fuel imports by new year",
+        "url": "https://www.bbc.com/news/articles/ceqdl8xre7qo?at_medium=RSS&amp;at_campaign=rss",
+        "source": "bbc-business"
+      },
+      {
+        "title": "'I was employee number one': SpaceX co-founder reacts to firm's market debut",
+        "url": "https://www.bbc.com/news/videos/cvgjx68nyvmo?at_medium=RSS&amp;at_campaign=rss",
+        "source": "bbc-business"
+      }
+    ],
+    "github_trending": [
+      {
+        "name": "iptv-org / iptv",
+        "url": "https://github.com/iptv-org/iptv",
+        "description": "Collection of publicly available IPTV channels from all over the world"
+      },
+      {
+        "name": "teslamate-org / teslamate",
+        "url": "https://github.com/teslamate-org/teslamate",
+        "description": "A self-hosted data logger for your Tesla 🚘 [main maintainer=@JakobLichterfeld]"
+      },
+      {
+        "name": "Panniantong / Agent-Reach",
+        "url": "https://github.com/Panniantong/Agent-Reach",
+        "description": "Give your AI agent eyes to see the entire internet. Read &amp; search Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu — one CLI, zero API fees."
+      },
+      {
+        "name": "meshery / meshery",
+        "url": "https://github.com/meshery/meshery",
+        "description": "Meshery, the cloud native manager"
+      },
+      {
+        "name": "chatwoot / chatwoot",
+        "url": "https://github.com/chatwoot/chatwoot",
+        "description": "Open-source live-chat, email support, omni-channel desk. An alternative to Intercom, Zendesk, Salesforce Service Cloud etc. 🔥💬"
+      },
+      {
+        "name": "krahets / hello-algo",
+        "url": "https://github.com/krahets/hello-algo",
+        "description": "《Hello 算法》：动画图解、一键运行的数据结构与算法教程。支持简中、繁中、English、日本語，提供 Python, Java, C++, C, C#, JS, Go, Swift, Rust, Ruby, Kotlin, TS, Dart 等代码实现"
+      },
+      {
+        "name": "freeCodeCamp / freeCodeCamp",
+        "url": "https://github.com/freeCodeCamp/freeCodeCamp",
+        "description": "freeCodeCamp.org's open-source codebase and curriculum. Learn math, programming, and computer science for free."
+      },
+      {
+        "name": "trycua / cua",
+        "url": "https://github.com/trycua/cua",
+        "description": "Open-source infrastructure for Computer-Use Agents. Sandboxes, SDKs, and benchmarks to train and evaluate AI agents that can control full desktops (macOS, Linux, Windows)."
+      },
+      {
+        "name": "jwasham / coding-interview-university",
+        "url": "https://github.com/jwasham/coding-interview-university",
+        "description": "A complete computer science study plan to become a software engineer."
+      },
+      {
+        "name": "rohitg00 / ai-engineering-from-scratch",
+        "url": "https://github.com/rohitg00/ai-engineering-from-scratch",
+        "description": "Learn it. Build it. Ship it for others."
+      },
+      {
+        "name": "music-assistant / server",
+        "url": "https://github.com/music-assistant/server",
+        "description": "Music Assistant is a free, opensource Media library manager that connects to your streaming services and a wide range of connected speakers. The server is the beating heart, the core of Music Assistant and must run on an always-on device like a Raspberry Pi, a NAS or an Intel NUC or alike."
+      },
+      {
+        "name": "Free-TV / IPTV",
+        "url": "https://github.com/Free-TV/IPTV",
+        "description": "M3U Playlist for free TV channels"
+      },
+      {
+        "name": "Introduction-to-Autonomous-Robots / Introduction-to-Autonomous-Robots",
+        "url": "https://github.com/Introduction-to-Autonomous-Robots/Introduction-to-Autonomous-Robots",
+        "description": "Introduction to Autonomous Robots"
+      },
+      {
+        "name": "Raphire / Win11Debloat",
+        "url": "https://github.com/Raphire/Win11Debloat",
+        "description": "A simple, lightweight PowerShell script that allows you to remove pre-installed apps, disable telemetry, as well as perform various other changes to declutter and customize your Windows experience. Win11Debloat works for both Windows 10 and Windows 11."
+      },
+      {
+        "name": "mikeroyal / Self-Hosting-Guide",
+        "url": "https://github.com/mikeroyal/Self-Hosting-Guide",
+        "description": "Self-Hosting Guide. Learn all about locally hosting (on premises &amp; private web servers) and managing software applications by yourself or your organization. Including Cloud, LLMs, WireGuard, Automation, Home Assistant, and Networking."
+      }
+    ],
+    "producthunt_today": []
+  },
+  "blocked_sources": [
+    "amazon.com",
+    "x.com",
+    "twitter.com",
+    "xiaohongshu.com",
+    "smzdm.com",
+    "baidu.com",
+    "google.com"
+  ],
+  "analysis": {
+    "themes": [
+      {
+        "name": "AI Agent 工程化",
+        "evidence": "GitHub Trending 出现 agent-skills、superpowers 等多个 agent 框架项目",
+        "heat": "升温中"
+      },
+      {
+        "name": "本地化 AI 媒体",
+        "evidence": "Music Assistant 等自托管媒体库管理工具持续热门",
+        "heat": "升温中"
+      },
+      {
+        "name": "太空经济平民化",
+        "evidence": "SpaceX 上市,马斯克成为万亿富翁,资本涌入航天赛道",
+        "heat": "爆发期"
+      }
+    ],
+    "opportunities": [
+      {
+        "title": "AI Agent 技能模板商店",
+        "category": "SaaS",
+        "entry_cost": "低",
+        "time_to_cash": "1-3月",
+        "rationale": "agent-skills、superpowers 等项目爆发,大量 AI 编程 agent 缺乏高质量技能包。建立垂直领域的技能市场,收 30% 分成。"
+      },
+      {
+        "title": "出海英语短视频 AI 配音",
+        "category": "内容",
+        "entry_cost": "低",
+        "time_to_cash": "1-3月",
+        "rationale": "中国卖家做 TikTok/YouTube Shorts 需要英语配音,ElevenLabs 类工具单条成本高。做按条计费的 SaaS,目标 30 万跨境中小卖家。"
+      },
+      {
+        "title": "小团队 AI 流程顾问",
+        "category": "服务",
+        "entry_cost": "低",
+        "time_to_cash": "1-3月",
+        "rationale": "欧美 10-50 人公司不知道如何把 AI agent 嵌入现有工作流。1-2 人顾问团队,按项目收 1-5 万美金,从 Replit / Cursor 客户切入。"
+      },
+      {
+        "title": "开源医疗 AI 二开服务",
+        "category": "SaaS",
+        "entry_cost": "中",
+        "time_to_cash": "3-6月",
+        "rationale": "openmed 等开源医疗模型出现,诊所 / 心理咨询机构需要本地化部署 + 数据合规服务。技术团队 2-3 人,客单价 5-20 万。"
+      }
+    ],
+    "red_flags": [
+      "通用聊天机器人 — 大厂已红海,差异化难",
+      "无差异的 AI 绘图工具 — Midjourney / Sora 占据心智"
+    ]
+  }
+}

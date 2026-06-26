@@ -1,0 +1,246 @@
+{
+  "date": "2026-06-18",
+  "fetched_at": "2026-06-18 12:00:55 北京时间",
+  "sources": {
+    "reddit_top": [],
+    "hackernews_top": [],
+    "reuters_world": [],
+    "bbc_business": [
+      {
+        "title": "Interest rates expected to be held by Bank of England",
+        "url": "https://www.bbc.com/news/articles/c33yzm5mdjpo?at_medium=RSS&amp;at_campaign=rss",
+        "source": "bbc-business"
+      },
+      {
+        "title": "Apple to raise prices as AI boom pushes up chip costs",
+        "url": "https://www.bbc.com/news/articles/c3wyxvqdx1zo?at_medium=RSS&amp;at_campaign=rss",
+        "source": "bbc-business"
+      },
+      {
+        "title": "Driving test wait time target will not be met until autumn next year",
+        "url": "https://www.bbc.com/news/articles/cd7wv0xqvryo?at_medium=RSS&amp;at_campaign=rss",
+        "source": "bbc-business"
+      },
+      {
+        "title": "Fed holds US interest rates steady as uncertainty over Trump's Iran deal remains",
+        "url": "https://www.bbc.com/news/articles/cdjkl78vd7lo?at_medium=RSS&amp;at_campaign=rss",
+        "source": "bbc-business"
+      },
+      {
+        "title": "Inflation unexpectedly steady as food price rises slow",
+        "url": "https://www.bbc.com/news/articles/cyv0qpn9zvjo?at_medium=RSS&amp;at_campaign=rss",
+        "source": "bbc-business"
+      },
+      {
+        "title": "'We had to get out of the way': The backlash over delivery robots",
+        "url": "https://www.bbc.com/news/articles/c0rygp005wjo?at_medium=RSS&amp;at_campaign=rss",
+        "source": "bbc-business"
+      },
+      {
+        "title": "Cadbury chocolate-owner Mondelez defends staying in Russia",
+        "url": "https://www.bbc.com/news/articles/cy06d00jpn0o?at_medium=RSS&amp;at_campaign=rss",
+        "source": "bbc-business"
+      },
+      {
+        "title": "Japan raids ice cream giants over price-fixing allegations",
+        "url": "https://www.bbc.com/news/articles/c0ly0k88e61o?at_medium=RSS&amp;at_campaign=rss",
+        "source": "bbc-business"
+      },
+      {
+        "title": "'It's a unique scenario' - Inside Lidl's first ever pub",
+        "url": "https://www.bbc.com/news/articles/cj9gnljenpko?at_medium=RSS&amp;at_campaign=rss",
+        "source": "bbc-business"
+      },
+      {
+        "title": "Struggling Pizza Hut chain to be sold for $2.7bn",
+        "url": "https://www.bbc.com/news/articles/c75yd6dy2vlo?at_medium=RSS&amp;at_campaign=rss",
+        "source": "bbc-business"
+      },
+      {
+        "title": "Musk's SpaceX overtakes Amazon to become world's fifth most valuable firm",
+        "url": "https://www.bbc.com/news/articles/cvgd5g7d7gyo?at_medium=RSS&amp;at_campaign=rss",
+        "source": "bbc-business"
+      },
+      {
+        "title": "Thames Water moves step closer to nationalisation after government objects to rescue deal",
+        "url": "https://www.bbc.com/news/articles/cly089d0wl7o?at_medium=RSS&amp;at_campaign=rss",
+        "source": "bbc-business"
+      },
+      {
+        "title": "Japan raises interest rate to highest for 31 years",
+        "url": "https://www.bbc.com/news/articles/cjdgl213dpzo?at_medium=RSS&amp;at_campaign=rss",
+        "source": "bbc-business"
+      },
+      {
+        "title": "How the Iran war affects your money and bills",
+        "url": "https://www.bbc.com/news/articles/c2e4ygndjpwo?at_medium=RSS&amp;at_campaign=rss",
+        "source": "bbc-business"
+      },
+      {
+        "title": "Why is Thames Water in so much trouble?",
+        "url": "https://www.bbc.com/news/articles/cgleg70r7rno?at_medium=RSS&amp;at_campaign=rss",
+        "source": "bbc-business"
+      },
+      {
+        "title": "How could the US-Iran deal affect oil prices and the cost of food?",
+        "url": "https://www.bbc.com/news/articles/cd0p8me2m5do?at_medium=RSS&amp;at_campaign=rss",
+        "source": "bbc-business"
+      },
+      {
+        "title": "What's happening to UK petrol and diesel prices now the US and Iran have a deal?",
+        "url": "https://www.bbc.com/news/articles/c20zgjzz0e4o?at_medium=RSS&amp;at_campaign=rss",
+        "source": "bbc-business"
+      },
+      {
+        "title": "Is the convertible heading into the sunset?",
+        "url": "https://www.bbc.com/news/articles/cx212yy4er0o?at_medium=RSS&amp;at_campaign=rss",
+        "source": "bbc-business"
+      },
+      {
+        "title": "SpaceX IPO raised $10bn more than thought",
+        "url": "https://www.bbc.com/news/articles/cgrk21wnvy9o?at_medium=RSS&amp;at_campaign=rss",
+        "source": "bbc-business"
+      },
+      {
+        "title": "Anthropic to meet White House over AI tool suspension",
+        "url": "https://www.bbc.com/news/articles/c9w2p7ykp8yo?at_medium=RSS&amp;at_campaign=rss",
+        "source": "bbc-business"
+      }
+    ],
+    "github_trending": [
+      {
+        "name": "DeusData / codebase-memory-mcp",
+        "url": "https://github.com/DeusData/codebase-memory-mcp",
+        "description": "High-performance code intelligence MCP server. Indexes codebases into a persistent knowledge graph — average repo in milliseconds. 158 languages, sub-ms queries, 99% fewer tokens. Single static binary, zero dependencies."
+      },
+      {
+        "name": "n0-computer / iroh",
+        "url": "https://github.com/n0-computer/iroh",
+        "description": "IP addresses break, dial keys instead. Modular networking stack in Rust."
+      },
+      {
+        "name": "Panniantong / Agent-Reach",
+        "url": "https://github.com/Panniantong/Agent-Reach",
+        "description": "Give your AI agent eyes to see the entire internet. Read &amp; search Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu — one CLI, zero API fees."
+      },
+      {
+        "name": "meshery / meshery",
+        "url": "https://github.com/meshery/meshery",
+        "description": "Meshery, the cloud native manager"
+      },
+      {
+        "name": "obra / superpowers",
+        "url": "https://github.com/obra/superpowers",
+        "description": "An agentic skills framework &amp; software development methodology that works."
+      },
+      {
+        "name": "google-research / timesfm",
+        "url": "https://github.com/google-research/timesfm",
+        "description": "TimesFM (Time Series Foundation Model) is a pretrained time-series foundation model developed by Google Research for time-series forecasting."
+      },
+      {
+        "name": "RocketChat / Rocket.Chat",
+        "url": "https://github.com/RocketChat/Rocket.Chat",
+        "description": "The Secure CommsOS™ for mission-critical operations"
+      },
+      {
+        "name": "continuedev / continue",
+        "url": "https://github.com/continuedev/continue",
+        "description": "open-source coding agent"
+      },
+      {
+        "name": "penpot / penpot",
+        "url": "https://github.com/penpot/penpot",
+        "description": "Penpot: The open-source design tool for design and code collaboration"
+      },
+      {
+        "name": "krahets / hello-algo",
+        "url": "https://github.com/krahets/hello-algo",
+        "description": "《Hello 算法》：动画图解、一键运行的数据结构与算法教程。支持简中、繁中、English、日本語，提供 Python, Java, C++, C, C#, JS, Go, Swift, Rust, Ruby, Kotlin, TS, Dart 等代码实现"
+      },
+      {
+        "name": "Universal-Debloater-Alliance / universal-android-debloater-next-generation",
+        "url": "https://github.com/Universal-Debloater-Alliance/universal-android-debloater-next-generation",
+        "description": "Cross-platform GUI written in Rust using ADB to debloat non-rooted Android devices. Improve your privacy, the security and battery life of your device."
+      },
+      {
+        "name": "mattpocock / skills",
+        "url": "https://github.com/mattpocock/skills",
+        "description": "Skills for Real Engineers. Straight from my .claude directory."
+      },
+      {
+        "name": "yairm210 / Unciv",
+        "url": "https://github.com/yairm210/Unciv",
+        "description": "Open-source Android/Desktop remake of Civ V"
+      },
+      {
+        "name": "freeCodeCamp / freeCodeCamp",
+        "url": "https://github.com/freeCodeCamp/freeCodeCamp",
+        "description": "freeCodeCamp.org's open-source codebase and curriculum. Learn math, programming, and computer science for free."
+      },
+      {
+        "name": "bytedance / UI-TARS-desktop",
+        "url": "https://github.com/bytedance/UI-TARS-desktop",
+        "description": "The Open-Source Multimodal AI Agent Stack: Connecting Cutting-Edge AI Models and Agent Infra"
+      }
+    ],
+    "producthunt_today": []
+  },
+  "blocked_sources": [
+    "amazon.com",
+    "x.com",
+    "twitter.com",
+    "xiaohongshu.com",
+    "smzdm.com",
+    "baidu.com",
+    "google.com"
+  ],
+  "analysis": {
+    "themes": [
+      {
+        "name": "AI Agent 工程化",
+        "evidence": "GitHub Trending 出现 agent-skills、superpowers 等多个 agent 框架项目",
+        "heat": "升温中"
+      },
+      {
+        "name": "太空经济平民化",
+        "evidence": "SpaceX 上市,马斯克成为万亿富翁,资本涌入航天赛道",
+        "heat": "爆发期"
+      }
+    ],
+    "opportunities": [
+      {
+        "title": "AI Agent 技能模板商店",
+        "category": "SaaS",
+        "entry_cost": "低",
+        "time_to_cash": "1-3月",
+        "rationale": "agent-skills、superpowers 等项目爆发,大量 AI 编程 agent 缺乏高质量技能包。建立垂直领域的技能市场,收 30% 分成。"
+      },
+      {
+        "title": "出海英语短视频 AI 配音",
+        "category": "内容",
+        "entry_cost": "低",
+        "time_to_cash": "1-3月",
+        "rationale": "中国卖家做 TikTok/YouTube Shorts 需要英语配音,ElevenLabs 类工具单条成本高。做按条计费的 SaaS,目标 30 万跨境中小卖家。"
+      },
+      {
+        "title": "小团队 AI 流程顾问",
+        "category": "服务",
+        "entry_cost": "低",
+        "time_to_cash": "1-3月",
+        "rationale": "欧美 10-50 人公司不知道如何把 AI agent 嵌入现有工作流。1-2 人顾问团队,按项目收 1-5 万美金,从 Replit / Cursor 客户切入。"
+      },
+      {
+        "title": "开源医疗 AI 二开服务",
+        "category": "SaaS",
+        "entry_cost": "中",
+        "time_to_cash": "3-6月",
+        "rationale": "openmed 等开源医疗模型出现,诊所 / 心理咨询机构需要本地化部署 + 数据合规服务。技术团队 2-3 人,客单价 5-20 万。"
+      }
+    ],
+    "red_flags": [
+      "通用聊天机器人 — 大厂已红海,差异化难",
+      "无差异的 AI 绘图工具 — Midjourney / Sora 占据心智"
+    ]
+  }
+}

@@ -1,0 +1,251 @@
+{
+  "date": "2026-06-15",
+  "fetched_at": "2026-06-15 12:00:32 北京时间",
+  "sources": {
+    "reddit_top": [],
+    "hackernews_top": [],
+    "reuters_world": [],
+    "bbc_business": [
+      {
+        "title": "Oil prices slide after Pakistan announces deal between US and Iran",
+        "url": "https://www.bbc.com/news/articles/c6217106px6o?at_medium=RSS&amp;at_campaign=rss",
+        "source": "bbc-business"
+      },
+      {
+        "title": "Millions of people can get discounts on their bills - here's how",
+        "url": "https://www.bbc.com/news/articles/c4gyplpyj00o?at_medium=RSS&amp;at_campaign=rss",
+        "source": "bbc-business"
+      },
+      {
+        "title": "Surge in scams as fraudsters use AI to target people",
+        "url": "https://www.bbc.com/news/articles/cwykp9ygxlvo?at_medium=RSS&amp;at_campaign=rss",
+        "source": "bbc-business"
+      },
+      {
+        "title": "Is the convertible heading into the sunset?",
+        "url": "https://www.bbc.com/news/articles/cx212yy4er0o?at_medium=RSS&amp;at_campaign=rss",
+        "source": "bbc-business"
+      },
+      {
+        "title": "UK electric car sales target set to be weakened",
+        "url": "https://www.bbc.com/news/articles/cx2dmwmj4dmo?at_medium=RSS&amp;at_campaign=rss",
+        "source": "bbc-business"
+      },
+      {
+        "title": "As more US business owners retire many are selling up to their staff",
+        "url": "https://www.bbc.com/news/articles/c0ey87z1ggjo?at_medium=RSS&amp;at_campaign=rss",
+        "source": "bbc-business"
+      },
+      {
+        "title": "UK and Japan agree £18bn investment deal",
+        "url": "https://www.bbc.com/news/articles/cx2kjwgwxwlo?at_medium=RSS&amp;at_campaign=rss",
+        "source": "bbc-business"
+      },
+      {
+        "title": "Why the US economy keeps defying the odds",
+        "url": "https://www.bbc.com/news/articles/cwy031el03po?at_medium=RSS&amp;at_campaign=rss",
+        "source": "bbc-business"
+      },
+      {
+        "title": "Elon Musk's stratospheric rise to trillionaire status - in charts",
+        "url": "https://www.bbc.com/news/articles/c4gyp523ly8o?at_medium=RSS&amp;at_campaign=rss",
+        "source": "bbc-business"
+      },
+      {
+        "title": "Anthropic suspends new AI tools over US government security concerns",
+        "url": "https://www.bbc.com/news/articles/c932g3v3e13o?at_medium=RSS&amp;at_campaign=rss",
+        "source": "bbc-business"
+      },
+      {
+        "title": "Elon Musk becomes world's first trillionaire as SpaceX soars in stock market debut",
+        "url": "https://www.bbc.com/news/articles/c4gypy3wwl7o?at_medium=RSS&amp;at_campaign=rss",
+        "source": "bbc-business"
+      },
+      {
+        "title": "UK vows to phase out Russian diesel and jet fuel imports by new year",
+        "url": "https://www.bbc.com/news/articles/ceqdl8xre7qo?at_medium=RSS&amp;at_campaign=rss",
+        "source": "bbc-business"
+      },
+      {
+        "title": "'I was employee number one': SpaceX co-founder reacts to firm's market debut",
+        "url": "https://www.bbc.com/news/videos/cvgjx68nyvmo?at_medium=RSS&amp;at_campaign=rss",
+        "source": "bbc-business"
+      },
+      {
+        "title": "UK economy contracts as Iran war impact felt",
+        "url": "https://www.bbc.com/news/articles/c77y47248k4o?at_medium=RSS&amp;at_campaign=rss",
+        "source": "bbc-business"
+      },
+      {
+        "title": "Why the economics make this the craziest World Cup ever",
+        "url": "https://www.bbc.com/news/articles/cpv32417nlwo?at_medium=RSS&amp;at_campaign=rss",
+        "source": "bbc-business"
+      },
+      {
+        "title": "My friends always want to split the bill equally, how do I say no?",
+        "url": "https://www.bbc.com/news/articles/czxqdznzy7ro?at_medium=RSS&amp;at_campaign=rss",
+        "source": "bbc-business"
+      },
+      {
+        "title": "Watch: Three things to know about SpaceX's stock market debut",
+        "url": "https://www.bbc.com/news/videos/c4gyx0x1d5ro?at_medium=RSS&amp;at_campaign=rss",
+        "source": "bbc-business"
+      },
+      {
+        "title": "UK signals it may block payout to British Steel owner",
+        "url": "https://www.bbc.com/news/articles/c932gng1dglo?at_medium=RSS&amp;at_campaign=rss",
+        "source": "bbc-business"
+      },
+      {
+        "title": "Ryanair investigated over charging parents to sit with children",
+        "url": "https://www.bbc.com/news/articles/czj87rvx349o?at_medium=RSS&amp;at_campaign=rss",
+        "source": "bbc-business"
+      },
+      {
+        "title": "Mike Ashley's Frasers offers £1.73bn to buy all of Hugo Boss",
+        "url": "https://www.bbc.com/news/articles/c07y92gplmyo?at_medium=RSS&amp;at_campaign=rss",
+        "source": "bbc-business"
+      }
+    ],
+    "github_trending": [
+      {
+        "name": "iptv-org / iptv",
+        "url": "https://github.com/iptv-org/iptv",
+        "description": "Collection of publicly available IPTV channels from all over the world"
+      },
+      {
+        "name": "freeCodeCamp / freeCodeCamp",
+        "url": "https://github.com/freeCodeCamp/freeCodeCamp",
+        "description": "freeCodeCamp.org's open-source codebase and curriculum. Learn math, programming, and computer science for free."
+      },
+      {
+        "name": "pytest-dev / pytest",
+        "url": "https://github.com/pytest-dev/pytest",
+        "description": "The pytest framework makes it easy to write small tests, yet scales to support complex functional testing"
+      },
+      {
+        "name": "swc-project / swc",
+        "url": "https://github.com/swc-project/swc",
+        "description": "Rust-based platform for the Web"
+      },
+      {
+        "name": "chatwoot / chatwoot",
+        "url": "https://github.com/chatwoot/chatwoot",
+        "description": "Open-source live-chat, email support, omni-channel desk. An alternative to Intercom, Zendesk, Salesforce Service Cloud etc. 🔥💬"
+      },
+      {
+        "name": "NVIDIA / SkillSpector",
+        "url": "https://github.com/NVIDIA/SkillSpector",
+        "description": "Security scanner for AI agent skills. Detect vulnerabilities, malicious patterns, and security risks."
+      },
+      {
+        "name": "meshery / meshery",
+        "url": "https://github.com/meshery/meshery",
+        "description": "Meshery, the cloud native manager"
+      },
+      {
+        "name": "cypress-io / cypress",
+        "url": "https://github.com/cypress-io/cypress",
+        "description": "Fast, easy and reliable testing for anything that runs in a browser."
+      },
+      {
+        "name": "GorvGoyl / Clone-Wars",
+        "url": "https://github.com/GorvGoyl/Clone-Wars",
+        "description": "100+ open-source clones of popular sites like Airbnb, Amazon, Instagram, Netflix, Tiktok, Spotify, Whatsapp, Youtube etc. See source code, demo links, tech stack, github stars."
+      },
+      {
+        "name": "Introduction-to-Autonomous-Robots / Introduction-to-Autonomous-Robots",
+        "url": "https://github.com/Introduction-to-Autonomous-Robots/Introduction-to-Autonomous-Robots",
+        "description": "Introduction to Autonomous Robots"
+      },
+      {
+        "name": "shiyu-coder / Kronos",
+        "url": "https://github.com/shiyu-coder/Kronos",
+        "description": "Kronos: A Foundation Model for the Language of Financial Markets"
+      },
+      {
+        "name": "music-assistant / server",
+        "url": "https://github.com/music-assistant/server",
+        "description": "Music Assistant is a free, opensource Media library manager that connects to your streaming services and a wide range of connected speakers. The server is the beating heart, the core of Music Assistant and must run on an always-on device like a Raspberry Pi, a NAS or an Intel NUC or alike."
+      },
+      {
+        "name": "Free-TV / IPTV",
+        "url": "https://github.com/Free-TV/IPTV",
+        "description": "M3U Playlist for free TV channels"
+      },
+      {
+        "name": "puppeteer / puppeteer",
+        "url": "https://github.com/puppeteer/puppeteer",
+        "description": "JavaScript API for Chrome and Firefox"
+      },
+      {
+        "name": "andrewyng / aisuite",
+        "url": "https://github.com/andrewyng/aisuite",
+        "description": "Simple, unified interface to multiple Generative AI providers"
+      }
+    ],
+    "producthunt_today": []
+  },
+  "blocked_sources": [
+    "amazon.com",
+    "x.com",
+    "twitter.com",
+    "xiaohongshu.com",
+    "smzdm.com",
+    "baidu.com",
+    "google.com"
+  ],
+  "analysis": {
+    "themes": [
+      {
+        "name": "AI Agent 工程化",
+        "evidence": "GitHub Trending 出现 agent-skills、superpowers 等多个 agent 框架项目",
+        "heat": "升温中"
+      },
+      {
+        "name": "本地化 AI 媒体",
+        "evidence": "Music Assistant 等自托管媒体库管理工具持续热门",
+        "heat": "升温中"
+      },
+      {
+        "name": "太空经济平民化",
+        "evidence": "SpaceX 上市,马斯克成为万亿富翁,资本涌入航天赛道",
+        "heat": "爆发期"
+      }
+    ],
+    "opportunities": [
+      {
+        "title": "AI Agent 技能模板商店",
+        "category": "SaaS",
+        "entry_cost": "低",
+        "time_to_cash": "1-3月",
+        "rationale": "agent-skills、superpowers 等项目爆发,大量 AI 编程 agent 缺乏高质量技能包。建立垂直领域的技能市场,收 30% 分成。"
+      },
+      {
+        "title": "出海英语短视频 AI 配音",
+        "category": "内容",
+        "entry_cost": "低",
+        "time_to_cash": "1-3月",
+        "rationale": "中国卖家做 TikTok/YouTube Shorts 需要英语配音,ElevenLabs 类工具单条成本高。做按条计费的 SaaS,目标 30 万跨境中小卖家。"
+      },
+      {
+        "title": "小团队 AI 流程顾问",
+        "category": "服务",
+        "entry_cost": "低",
+        "time_to_cash": "1-3月",
+        "rationale": "欧美 10-50 人公司不知道如何把 AI agent 嵌入现有工作流。1-2 人顾问团队,按项目收 1-5 万美金,从 Replit / Cursor 客户切入。"
+      },
+      {
+        "title": "开源医疗 AI 二开服务",
+        "category": "SaaS",
+        "entry_cost": "中",
+        "time_to_cash": "3-6月",
+        "rationale": "openmed 等开源医疗模型出现,诊所 / 心理咨询机构需要本地化部署 + 数据合规服务。技术团队 2-3 人,客单价 5-20 万。"
+      }
+    ],
+    "red_flags": [
+      "通用聊天机器人 — 大厂已红海,差异化难",
+      "无差异的 AI 绘图工具 — Midjourney / Sora 占据心智"
+    ]
+  }
+}

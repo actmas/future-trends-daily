@@ -1,0 +1,241 @@
+{
+  "date": "2026-06-21",
+  "fetched_at": "2026-06-21 12:01:07 北京时间",
+  "sources": {
+    "reddit_top": [],
+    "hackernews_top": [],
+    "reuters_world": [],
+    "bbc_business": [
+      {
+        "title": "Plans to end gazumping with binding agreements in house sales shake-up",
+        "url": "https://www.bbc.com/news/articles/c6216g52p8wo?at_medium=RSS&amp;at_campaign=rss",
+        "source": "bbc-business"
+      },
+      {
+        "title": "O'Leary extends Ryanair contract in deal that could net him over £130m",
+        "url": "https://www.bbc.com/news/articles/c4gyejpy221o?at_medium=RSS&amp;at_campaign=rss",
+        "source": "bbc-business"
+      },
+      {
+        "title": "Warning over 'fragile' public finances as borrowing rises",
+        "url": "https://www.bbc.com/news/articles/cqx1e8nrwgvo?at_medium=RSS&amp;at_campaign=rss",
+        "source": "bbc-business"
+      },
+      {
+        "title": "'I'd be put off if he asked to split it': Who should pay on a first date?",
+        "url": "https://www.bbc.com/news/articles/c74yl4gknzno?at_medium=RSS&amp;at_campaign=rss",
+        "source": "bbc-business"
+      },
+      {
+        "title": "Brexit cost 6% of UK economy, Bank of England company data suggests",
+        "url": "https://www.bbc.com/news/articles/cvg75npqkq4o?at_medium=RSS&amp;at_campaign=rss",
+        "source": "bbc-business"
+      },
+      {
+        "title": "The artificial ice pyramids saving India's mountain villages",
+        "url": "https://www.bbc.com/news/articles/c072414183go?at_medium=RSS&amp;at_campaign=rss",
+        "source": "bbc-business"
+      },
+      {
+        "title": "Five ways the Iran peace deal could affect you and your money",
+        "url": "https://www.bbc.com/news/articles/c4g5574pwreo?at_medium=RSS&amp;at_campaign=rss",
+        "source": "bbc-business"
+      },
+      {
+        "title": "Interest rates held as Bank warns of impact of high energy prices",
+        "url": "https://www.bbc.com/news/articles/c33yzm5mdjpo?at_medium=RSS&amp;at_campaign=rss",
+        "source": "bbc-business"
+      },
+      {
+        "title": "'Do not travel' advice for Dubai dropped",
+        "url": "https://www.bbc.com/news/articles/cddl29lg5gro?at_medium=RSS&amp;at_campaign=rss",
+        "source": "bbc-business"
+      },
+      {
+        "title": "Number of job vacancies hits five year-low",
+        "url": "https://www.bbc.com/news/articles/cm203nn7lzro?at_medium=RSS&amp;at_campaign=rss",
+        "source": "bbc-business"
+      },
+      {
+        "title": "Apple to raise prices as AI boom pushes up chip costs",
+        "url": "https://www.bbc.com/news/articles/c3wyxvqdx1zo?at_medium=RSS&amp;at_campaign=rss",
+        "source": "bbc-business"
+      },
+      {
+        "title": "CrossCountry ranked Britain's worst train operator",
+        "url": "https://www.bbc.com/news/articles/c36y5ezr0k7o?at_medium=RSS&amp;at_campaign=rss",
+        "source": "bbc-business"
+      },
+      {
+        "title": "Why has Texas set its sights on London?",
+        "url": "https://www.bbc.com/news/articles/ckgpgvklkgko?at_medium=RSS&amp;at_campaign=rss",
+        "source": "bbc-business"
+      },
+      {
+        "title": "Warsh to review how Fed works after holding US interest rates at first meeting",
+        "url": "https://www.bbc.com/news/articles/cdjkl78vd7lo?at_medium=RSS&amp;at_campaign=rss",
+        "source": "bbc-business"
+      },
+      {
+        "title": "Driving test wait time target will not be met until autumn next year",
+        "url": "https://www.bbc.com/news/articles/cd7wv0xqvryo?at_medium=RSS&amp;at_campaign=rss",
+        "source": "bbc-business"
+      },
+      {
+        "title": "Inflation unexpectedly steady as food price rises slow",
+        "url": "https://www.bbc.com/news/articles/cyv0qpn9zvjo?at_medium=RSS&amp;at_campaign=rss",
+        "source": "bbc-business"
+      },
+      {
+        "title": "Cadbury chocolate-owner Mondelez defends staying in Russia",
+        "url": "https://www.bbc.com/news/articles/cy06d00jpn0o?at_medium=RSS&amp;at_campaign=rss",
+        "source": "bbc-business"
+      },
+      {
+        "title": "Japan raids ice cream giants over price-fixing allegations",
+        "url": "https://www.bbc.com/news/articles/c0ly0k88e61o?at_medium=RSS&amp;at_campaign=rss",
+        "source": "bbc-business"
+      },
+      {
+        "title": "'It's a unique scenario' - Inside Lidl's first ever pub",
+        "url": "https://www.bbc.com/news/articles/cj9gnljenpko?at_medium=RSS&amp;at_campaign=rss",
+        "source": "bbc-business"
+      },
+      {
+        "title": "Struggling Pizza Hut chain to be sold for $2.7bn",
+        "url": "https://www.bbc.com/news/articles/c75yd6dy2vlo?at_medium=RSS&amp;at_campaign=rss",
+        "source": "bbc-business"
+      }
+    ],
+    "github_trending": [
+      {
+        "name": "palmier-io / palmier-pro",
+        "url": "https://github.com/palmier-io/palmier-pro",
+        "description": "macOS video editor built for AI"
+      },
+      {
+        "name": "penpot / penpot",
+        "url": "https://github.com/penpot/penpot",
+        "description": "Penpot: The open-source design tool for design and code collaboration"
+      },
+      {
+        "name": "calesthio / OpenMontage",
+        "url": "https://github.com/calesthio/OpenMontage",
+        "description": "World's first open-source, agentic video production system. 12 pipelines, 52 tools, 500+ agent skills. Turn your AI coding assistant into a full video production studio."
+      },
+      {
+        "name": "tursodatabase / turso",
+        "url": "https://github.com/tursodatabase/turso",
+        "description": "Turso is an in-process SQL database, compatible with SQLite."
+      },
+      {
+        "name": "DeusData / codebase-memory-mcp",
+        "url": "https://github.com/DeusData/codebase-memory-mcp",
+        "description": "High-performance code intelligence MCP server. Indexes codebases into a persistent knowledge graph — average repo in milliseconds. 158 languages, sub-ms queries, 99% fewer tokens. Single static binary, zero dependencies."
+      },
+      {
+        "name": "google-research / timesfm",
+        "url": "https://github.com/google-research/timesfm",
+        "description": "TimesFM (Time Series Foundation Model) is a pretrained time-series foundation model developed by Google Research for time-series forecasting."
+      },
+      {
+        "name": "twentyhq / twenty",
+        "url": "https://github.com/twentyhq/twenty",
+        "description": "The open alternative to Salesforce, designed for AI."
+      },
+      {
+        "name": "Kong / insomnia",
+        "url": "https://github.com/Kong/insomnia",
+        "description": "The open-source, cross-platform API client for GraphQL, REST, WebSockets, SSE and gRPC. With Cloud, Local and Git storage."
+      },
+      {
+        "name": "tw93 / Pake",
+        "url": "https://github.com/tw93/Pake",
+        "description": "🤱🏻 Turn any webpage into a desktop app with one command."
+      },
+      {
+        "name": "chopratejas / headroom",
+        "url": "https://github.com/chopratejas/headroom",
+        "description": "Compress tool outputs, logs, files, and RAG chunks before they reach the LLM. 60-95% fewer tokens, same answers. Library, proxy, MCP server."
+      },
+      {
+        "name": "jamiepine / voicebox",
+        "url": "https://github.com/jamiepine/voicebox",
+        "description": "The open-source AI voice studio. Clone, dictate, create."
+      },
+      {
+        "name": "Kilo-Org / kilocode",
+        "url": "https://github.com/Kilo-Org/kilocode",
+        "description": "Kilo is the all-in-one agentic engineering platform. Build, ship, and iterate faster with the most popular open source coding agent."
+      },
+      {
+        "name": "mattpocock / skills",
+        "url": "https://github.com/mattpocock/skills",
+        "description": "Skills for Real Engineers. Straight from my .claude directory."
+      },
+      {
+        "name": "withastro / flue",
+        "url": "https://github.com/withastro/flue",
+        "description": "The sandbox agent framework."
+      },
+      {
+        "name": "owainlewis / awesome-artificial-intelligence",
+        "url": "https://github.com/owainlewis/awesome-artificial-intelligence",
+        "description": "A curated list of Artificial Intelligence (AI) courses, books, video lectures and papers."
+      }
+    ],
+    "producthunt_today": []
+  },
+  "blocked_sources": [
+    "amazon.com",
+    "x.com",
+    "twitter.com",
+    "xiaohongshu.com",
+    "smzdm.com",
+    "baidu.com",
+    "google.com"
+  ],
+  "analysis": {
+    "themes": [
+      {
+        "name": "AI Agent 工程化",
+        "evidence": "GitHub Trending 出现 agent-skills、superpowers 等多个 agent 框架项目",
+        "heat": "升温中"
+      }
+    ],
+    "opportunities": [
+      {
+        "title": "AI Agent 技能模板商店",
+        "category": "SaaS",
+        "entry_cost": "低",
+        "time_to_cash": "1-3月",
+        "rationale": "agent-skills、superpowers 等项目爆发,大量 AI 编程 agent 缺乏高质量技能包。建立垂直领域的技能市场,收 30% 分成。"
+      },
+      {
+        "title": "出海英语短视频 AI 配音",
+        "category": "内容",
+        "entry_cost": "低",
+        "time_to_cash": "1-3月",
+        "rationale": "中国卖家做 TikTok/YouTube Shorts 需要英语配音,ElevenLabs 类工具单条成本高。做按条计费的 SaaS,目标 30 万跨境中小卖家。"
+      },
+      {
+        "title": "小团队 AI 流程顾问",
+        "category": "服务",
+        "entry_cost": "低",
+        "time_to_cash": "1-3月",
+        "rationale": "欧美 10-50 人公司不知道如何把 AI agent 嵌入现有工作流。1-2 人顾问团队,按项目收 1-5 万美金,从 Replit / Cursor 客户切入。"
+      },
+      {
+        "title": "开源医疗 AI 二开服务",
+        "category": "SaaS",
+        "entry_cost": "中",
+        "time_to_cash": "3-6月",
+        "rationale": "openmed 等开源医疗模型出现,诊所 / 心理咨询机构需要本地化部署 + 数据合规服务。技术团队 2-3 人,客单价 5-20 万。"
+      }
+    ],
+    "red_flags": [
+      "通用聊天机器人 — 大厂已红海,差异化难",
+      "无差异的 AI 绘图工具 — Midjourney / Sora 占据心智"
+    ]
+  }
+}
