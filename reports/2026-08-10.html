@@ -1,0 +1,348 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>未来风口雷达 · 2026-08-10</title>
+<style>
+* { box-sizing: border-box; margin: 0; padding: 0; }
+:root {
+  --bg: #0a0e1a; --bg-2: #131826; --bg-3: #1c2235;
+  --text: #e8eaf0; --text-2: #9ca3af; --text-3: #6b7280;
+  --accent: #6366f1; --accent-2: #8b5cf6;
+  --border: rgba(255,255,255,0.08);
+  --shadow: 0 4px 24px rgba(0,0,0,0.3);
+}
+@media (prefers-color-scheme: light) {
+  :root { --bg: #f8fafc; --bg-2: #ffffff; --bg-3: #f1f5f9;
+          --text: #0f172a; --text-2: #475569; --text-3: #94a3b8;
+          --border: rgba(0,0,0,0.08);
+          --shadow: 0 4px 24px rgba(0,0,0,0.06); }
+}
+body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC",
+       "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
+       background: var(--bg); color: var(--text); line-height: 1.6;
+       min-height: 100vh; }
+.container { max-width: 1200px; margin: 0 auto; padding: 32px 20px 80px; }
+.hero { background: linear-gradient(135deg, var(--accent) 0%, var(--accent-2) 100%);
+        border-radius: 20px; padding: 40px 32px; margin-bottom: 32px;
+        color: #fff; box-shadow: var(--shadow); position: relative; overflow: hidden; }
+.hero::before { content: "📡"; position: absolute; top: -20px; right: -10px;
+                font-size: 200px; opacity: 0.12; transform: rotate(15deg); }
+.hero h1 { font-size: 32px; font-weight: 800; margin-bottom: 8px;
+          position: relative; letter-spacing: -0.5px; }
+.hero .sub { font-size: 16px; opacity: 0.92; position: relative; }
+.hero .meta { font-size: 13px; opacity: 0.75; margin-top: 12px; position: relative; }
+.section { margin-bottom: 36px; }
+.section h2 { font-size: 20px; font-weight: 700; margin-bottom: 18px;
+              color: var(--text); display: flex; align-items: center; gap: 10px; }
+.section h2 .badge { font-size: 11px; background: var(--accent); color: #fff;
+                    padding: 3px 10px; border-radius: 10px; font-weight: 600; }
+.grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+        gap: 18px; }
+.card { background: var(--bg-2); border: 1px solid var(--border);
+        border-radius: 14px; padding: 20px; box-shadow: var(--shadow);
+        transition: transform 0.15s, box-shadow 0.15s; }
+.card:hover { transform: translateY(-2px); box-shadow: 0 8px 32px rgba(0,0,0,0.4); }
+.card .title { font-size: 16px; font-weight: 700; margin-bottom: 8px; color: var(--text); }
+.card .desc { font-size: 13px; color: var(--text-2); line-height: 1.55; }
+.tag { display: inline-block; font-size: 11px; padding: 3px 10px;
+       border-radius: 10px; background: var(--bg-3); color: var(--text-2);
+       margin-right: 6px; margin-top: 4px; font-weight: 500; }
+.tag.heat { color: #fff; font-weight: 600; }
+.theme-card { background: var(--bg-2); border: 1px solid var(--border);
+              border-left: 3px solid var(--accent); border-radius: 12px;
+              padding: 18px 20px; box-shadow: var(--shadow); }
+.theme-card .name { font-size: 16px; font-weight: 700; margin-bottom: 8px; }
+.theme-card .evidence { font-size: 13px; color: var(--text-2); }
+.opp-card { background: var(--bg-2); border: 1px solid var(--border);
+            border-radius: 14px; padding: 22px; box-shadow: var(--shadow);
+            position: relative; }
+.opp-card .head { display: flex; align-items: flex-start; gap: 12px;
+                  margin-bottom: 12px; }
+.opp-card .icon { font-size: 32px; line-height: 1; flex-shrink: 0; }
+.opp-card .title { font-size: 17px; font-weight: 700; flex: 1; line-height: 1.4; }
+.opp-card .meta { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 12px; }
+.opp-card .meta .pill { font-size: 11px; padding: 4px 10px; border-radius: 12px;
+                       font-weight: 600; color: #fff; }
+.opp-card .rationale { font-size: 13.5px; color: var(--text-2); line-height: 1.65; }
+.flag-card { background: rgba(239,68,68,0.08); border: 1px solid rgba(239,68,68,0.3);
+             border-radius: 12px; padding: 14px 18px; }
+.flag-card .item { font-size: 13.5px; color: var(--text); margin: 4px 0; }
+.sources { background: var(--bg-2); border: 1px solid var(--border);
+           border-radius: 14px; padding: 18px 22px; }
+.sources h3 { font-size: 14px; font-weight: 700; margin-bottom: 12px; color: var(--text); }
+.sources .src { font-size: 12.5px; color: var(--text-2); padding: 4px 0;
+                border-bottom: 1px dashed var(--border); }
+.sources .src:last-child { border-bottom: none; }
+.sources .src .lbl { display: inline-block; min-width: 90px; font-weight: 600;
+                    color: var(--text); }
+.sources .src a { color: var(--accent); text-decoration: none; }
+.sources .src a:hover { text-decoration: underline; }
+.archives { background: var(--bg-2); border: 1px solid var(--border);
+            border-radius: 14px; padding: 18px 22px; margin-top: 24px; }
+.archives h3 { font-size: 14px; font-weight: 700; margin-bottom: 12px; }
+.archives ul { list-style: none; }
+.archives li { padding: 4px 0; font-size: 13px; }
+.archives a { color: var(--accent); text-decoration: none; }
+.archives a:hover { text-decoration: underline; }
+.footer { text-align: center; color: var(--text-3); font-size: 12px;
+          margin-top: 48px; padding-top: 24px; border-top: 1px solid var(--border); }
+@media (max-width: 640px) {
+  .hero h1 { font-size: 24px; }
+  .grid { grid-template-columns: 1fr; }
+  .opp-card .head { flex-direction: column; }
+}
+</style>
+</head>
+<body>
+<div class="container">
+  <div class="hero">
+    <h1>📡 未来风口雷达</h1>
+    <div class="sub">基于国际电商 / 国际局势 / 社交媒体 / 技术社区的实时信号</div>
+    <div class="meta">2026-08-10 12:00 北京时间 · 多源抓取 + LLM 机会分析</div>
+  </div>
+
+  <div class="section">
+    <h2>🌐 主流趋势主题 <span class="badge">AI 解读</span></h2>
+    <div class="grid">
+
+<div class="theme-card">
+  <div class="name">AI Agent安全与治理 <span class="tag heat" style="background:#f59e0b">升温中</span></div>
+  <div class="evidence">Meta因儿童安全被罚5.67亿美元；OpenAI和Meta的AI系统接连被黑客攻击；GitHub上出现多个AI Agent开发工具（如prime-agent、agency-agents）</div>
+</div>
+
+<div class="theme-card">
+  <div class="name">AI驱动的垂直行业工具 <span class="tag heat" style="background:#ef4444">爆发期</span></div>
+  <div class="evidence">GitHub Trending出现法律AI基准（harvey-labs）、股票分析系统（daily_stock_analysis）、天气预测模型（weathernext）；AI Agent开始渗透到编程、法律、金融等专业领域</div>
+</div>
+
+<div class="theme-card">
+  <div class="name">能源与电池安全 <span class="tag heat" style="background:#f59e0b">升温中</span></div>
+  <div class="evidence">航空公司对锂离子电池发出警告；特朗普政府向德国公司支付12亿美元停止风电项目；英国能源账单补贴引发关注</div>
+</div>
+
+<div class="theme-card">
+  <div class="name">复古社交与去滤镜内容 <span class="tag heat" style="background:#f59e0b">升温中</span></div>
+  <div class="evidence">MySpace可能重新推出，用户怀念无滤镜的原始图片；社交媒体巨头因内容安全受罚，用户对现有平台不满</div>
+</div>
+
+<div class="theme-card">
+  <div class="name">供应链与关税应对 <span class="tag heat" style="background:#f59e0b">升温中</span></div>
+  <div class="evidence">美国对芯片材料征收15%关税；EasyJet被美国公司收购；国防业务出售，全球供应链重组</div>
+</div>
+    </div>
+  </div>
+
+  <div class="section">
+    <h2>💰 可落地的赚钱机会 <span class="badge">7 个</span></h2>
+    
+<div class="opp-card">
+  <div class="head">
+    <div class="icon">⚙️</div>
+    <div class="title">AI Agent安全审计服务</div>
+  </div>
+  <div class="meta">
+    <span class="pill" style="background:var(--accent)">SaaS</span>
+    <span class="pill" style="background:#64748b">门槛 低(万元内)</span>
+    <span class="pill" style="background:#f59e0b">回本 3-6月</span>
+  </div>
+  <div class="rationale">随着AI Agent普及，安全漏洞频发（如OpenAI和Meta被黑），企业急需第三方审计。提供针对AI Agent的渗透测试、合规检查、漏洞修复建议。目标客户是使用AI Agent的中小企业，按项目收费（如每次审计2-5万元）。</div>
+</div>
+
+<div class="opp-card">
+  <div class="head">
+    <div class="icon">⚙️</div>
+    <div class="title">法律AI助手定制开发</div>
+  </div>
+  <div class="meta">
+    <span class="pill" style="background:var(--accent)">SaaS</span>
+    <span class="pill" style="background:#64748b">门槛 中(10-50万)</span>
+    <span class="pill" style="background:#64748b">回本 6-12月</span>
+  </div>
+  <div class="rationale">GitHub上harvey-labs等法律AI基准出现，但法律行业数字化程度低，中小律所急需AI辅助合同审查、案例检索。开发垂直法律AI助手，按年订阅收费（每律所每年3-10万元）。目标客户是中小律所和公司法务。</div>
+</div>
+
+<div class="opp-card">
+  <div class="head">
+    <div class="icon">🤝</div>
+    <div class="title">锂电池运输安全检测服务</div>
+  </div>
+  <div class="meta">
+    <span class="pill" style="background:var(--accent)">服务</span>
+    <span class="pill" style="background:#64748b">门槛 低(万元内)</span>
+    <span class="pill" style="background:#10b981">回本 1-3月</span>
+  </div>
+  <div class="rationale">航空公司对锂电池运输警告升级，但许多小型物流商和电商卖家缺乏合规检测能力。提供锂电池运输安全检测和包装认证服务，按单收费（每单500-2000元）。目标客户是跨境电商卖家、小型物流公司。</div>
+</div>
+
+<div class="opp-card">
+  <div class="head">
+    <div class="icon">📹</div>
+    <div class="title">无滤镜社交平台运营</div>
+  </div>
+  <div class="meta">
+    <span class="pill" style="background:var(--accent)">内容</span>
+    <span class="pill" style="background:#64748b">门槛 低(万元内)</span>
+    <span class="pill" style="background:#f59e0b">回本 3-6月</span>
+  </div>
+  <div class="rationale">MySpace回归暗示用户对真实社交的渴望。创建一个小众无滤镜社交平台（如基于Discord或自建轻量社区），吸引对现有平台不满的用户。通过广告和会员订阅盈利。目标客户是千禧一代和Z世代。</div>
+</div>
+
+<div class="opp-card">
+  <div class="head">
+    <div class="icon">🤝</div>
+    <div class="title">关税对冲咨询服务</div>
+  </div>
+  <div class="meta">
+    <span class="pill" style="background:var(--accent)">服务</span>
+    <span class="pill" style="background:#64748b">门槛 低(万元内)</span>
+    <span class="pill" style="background:#10b981">回本 1-3月</span>
+  </div>
+  <div class="rationale">美国对芯片材料加征关税，许多中小制造企业面临成本上升。提供关税影响分析和供应链调整建议，按项目收费（每次1-5万元）。目标客户是依赖进口芯片材料的电子制造企业。</div>
+</div>
+
+<div class="opp-card">
+  <div class="head">
+    <div class="icon">⚙️</div>
+    <div class="title">AI股票分析工具订阅</div>
+  </div>
+  <div class="meta">
+    <span class="pill" style="background:var(--accent)">SaaS</span>
+    <span class="pill" style="background:#64748b">门槛 低(万元内)</span>
+    <span class="pill" style="background:#10b981">回本 1-3月</span>
+  </div>
+  <div class="rationale">GitHub上daily_stock_analysis项目显示LLM驱动的股票分析需求旺盛。开发一个基于AI的股票分析工具，提供实时行情、新闻解读和投资建议，按月订阅（每月99-299元）。目标客户是个人投资者和散户。</div>
+</div>
+
+<div class="opp-card">
+  <div class="head">
+    <div class="icon">📹</div>
+    <div class="title">AI Agent开发培训课程</div>
+  </div>
+  <div class="meta">
+    <span class="pill" style="background:var(--accent)">内容</span>
+    <span class="pill" style="background:#64748b">门槛 低(万元内)</span>
+    <span class="pill" style="background:#10b981">回本 1-3月</span>
+  </div>
+  <div class="rationale">AI Agent开发工具爆发（如prime-agent、agency-agents），但多数开发者缺乏经验。提供在线课程和实战训练营，教授如何用这些工具构建AI Agent。按课程收费（每门课999-4999元）。目标客户是开发者、技术创业者。</div>
+</div>
+  </div>
+
+  <div class="section"><h2>🚫 伪风口预警</h2><div class="flag-card"><div class="item">⚠️ AI通用大模型创业：巨头竞争激烈，普通团队难以在通用模型上突破，且烧钱巨大，不建议追。</div><div class="item">⚠️ 风电项目投资：特朗普政府叫停风电项目，政策风险极高，普通投资者不宜进入。</div><div class="item">⚠️ 复古社交平台开发：虽然MySpace回归有热度，但社交平台网络效应强，新平台难以存活，除非有独特定位，否则慎入。</div></div></div>
+
+  <div class="section">
+    <h2>📈 GitHub 风向标 <span class="badge">技术爆款</span></h2>
+    <div class="grid">
+
+<div class="card">
+  <div class="title"><a href="https://github.com/PrimeIntellect-ai/prime-agent" target="_blank" rel="noopener" style="color:inherit;text-decoration:none">PrimeIntellect-ai / prime-agent</a></div>
+  <div class="desc">A self-improving RLM agent for coding workflows and long-running autonomous tasks.</div>
+</div>
+
+<div class="card">
+  <div class="title"><a href="https://github.com/vitali87/code-graph-rag" target="_blank" rel="noopener" style="color:inherit;text-decoration:none">vitali87 / code-graph-rag</a></div>
+  <div class="desc">The ultimate RAG for your monorepo. Query, understand, and edit multi-language codebases with the power of AI and knowledge graphs</div>
+</div>
+
+<div class="card">
+  <div class="title"><a href="https://github.com/msitarzewski/agency-agents" target="_blank" rel="noopener" style="color:inherit;text-decoration:none">msitarzewski / agency-agents</a></div>
+  <div class="desc">A complete AI agency at your fingertips - From frontend wizards to Reddit community ninjas, from whimsy injectors to reality checkers. Each agent is a specialized expert with personality, processes, a</div>
+</div>
+
+<div class="card">
+  <div class="title"><a href="https://github.com/pranshuparmar/witr" target="_blank" rel="noopener" style="color:inherit;text-decoration:none">pranshuparmar / witr</a></div>
+  <div class="desc">Why is this running? Trace any process, port, container, or file back to what started it - CLI + TUI.</div>
+</div>
+
+<div class="card">
+  <div class="title"><a href="https://github.com/google-deepmind/weathernext" target="_blank" rel="noopener" style="color:inherit;text-decoration:none">google-deepmind / weathernext</a></div>
+  <div class="desc"></div>
+</div>
+
+<div class="card">
+  <div class="title"><a href="https://github.com/addyosmani/agent-skills" target="_blank" rel="noopener" style="color:inherit;text-decoration:none">addyosmani / agent-skills</a></div>
+  <div class="desc">Production-grade engineering skills for AI coding agents.</div>
+</div>
+
+<div class="card">
+  <div class="title"><a href="https://github.com/ZhuLinsen/daily_stock_analysis" target="_blank" rel="noopener" style="color:inherit;text-decoration:none">ZhuLinsen / daily_stock_analysis</a></div>
+  <div class="desc">LLM 驱动的多市场股票智能分析系统：多源行情、实时新闻、决策看板与自动推送，支持零成本定时运行。 LLM-powered multi-market stock analysis system with multi-source market data, real-time news, decision dashboard, automated notifications, and cost-fr</div>
+</div>
+
+<div class="card">
+  <div class="title"><a href="https://github.com/goauthentik/authentik" target="_blank" rel="noopener" style="color:inherit;text-decoration:none">goauthentik / authentik</a></div>
+  <div class="desc">The authentication glue you need.</div>
+</div>
+
+<div class="card">
+  <div class="title"><a href="https://github.com/google/skills" target="_blank" rel="noopener" style="color:inherit;text-decoration:none">google / skills</a></div>
+  <div class="desc">Agent Skills for Google products and technologies</div>
+</div>
+</div>
+  </div>
+
+  <div class="section">
+    <h2>📰 BBC 商业头条 <span class="badge">国际局势</span></h2>
+    <div class="grid">
+
+<div class="card">
+  <div class="title">Is football AI-proof? Why tech investors wanted a slice of the World Cup</div>
+  <div class="desc">来源: BBC Business</div>
+</div>
+
+<div class="card">
+  <div class="title">You could be missing out on £150 off your energy bill - here&#x27;s how to check</div>
+  <div class="desc">来源: BBC Business</div>
+</div>
+
+<div class="card">
+  <div class="title">How a 90-second power outage sparked chaos for rail commuters</div>
+  <div class="desc">来源: BBC Business</div>
+</div>
+
+<div class="card">
+  <div class="title">Goodwin considers selling part of defence business</div>
+  <div class="desc">来源: BBC Business</div>
+</div>
+
+<div class="card">
+  <div class="title">Surprise fall in US jobs last month as slow summer continues</div>
+  <div class="desc">来源: BBC Business</div>
+</div>
+
+<div class="card">
+  <div class="title">Meta fined $567m in largest child safety ruling against social media giant</div>
+  <div class="desc">来源: BBC Business</div>
+</div>
+
+<div class="card">
+  <div class="title">Raw images, no filters: Why MySpace fans want it back as relaunch hinted</div>
+  <div class="desc">来源: BBC Business</div>
+</div>
+
+<div class="card">
+  <div class="title">Why airlines are warning over lithium-ion batteries</div>
+  <div class="desc">来源: BBC Business</div>
+</div>
+
+<div class="card">
+  <div class="title">Trump administration to pay German firm $1.2bn to halt US wind projects</div>
+  <div class="desc">来源: BBC Business</div>
+</div>
+</div>
+  </div>
+
+  <div class="section">
+    <h2>📡 数据源</h2>
+    <div class="sources"><h3>📡 本轮抓取源</h3><div class="src"><span class="lbl">BBC Business</span><a href="https://www.bbc.com/news/business" target="_blank" rel="noopener">20 条</a></div><div class="src"><span class="lbl">GitHub Trending</span><a href="https://github.com/trending" target="_blank" rel="noopener">12 条</a></div></div>
+  </div>
+
+  <div class="archives"><h3>🗂 历史报告</h3><ul><li><a href="reports/2026-08-10.html">2026-08-10</a></li><li><a href="reports/2026-08-09.html">2026-08-09</a></li><li><a href="reports/2026-08-08.html">2026-08-08</a></li><li><a href="reports/2026-08-07.html">2026-08-07</a></li><li><a href="reports/2026-08-06.html">2026-08-06</a></li><li><a href="reports/2026-08-05.html">2026-08-05</a></li><li><a href="reports/2026-08-04.html">2026-08-04</a></li><li><a href="reports/2026-08-03.html">2026-08-03</a></li><li><a href="reports/2026-08-02.html">2026-08-02</a></li><li><a href="reports/2026-08-01.html">2026-08-01</a></li><li><a href="reports/2026-07-31.html">2026-07-31</a></li><li><a href="reports/2026-07-30.html">2026-07-30</a></li><li><a href="reports/2026-07-29.html">2026-07-29</a></li><li><a href="reports/2026-07-28.html">2026-07-28</a></li><li><a href="reports/2026-07-27.html">2026-07-27</a></li><li><a href="reports/2026-07-26.html">2026-07-26</a></li><li><a href="reports/2026-07-25.html">2026-07-25</a></li><li><a href="reports/2026-07-24.html">2026-07-24</a></li><li><a href="reports/2026-07-23.html">2026-07-23</a></li><li><a href="reports/2026-07-22.html">2026-07-22</a></li><li><a href="reports/2026-07-21.html">2026-07-21</a></li><li><a href="reports/2026-07-20.html">2026-07-20</a></li><li><a href="reports/2026-07-19.html">2026-07-19</a></li><li><a href="reports/2026-07-18.html">2026-07-18</a></li><li><a href="reports/2026-07-13.html">2026-07-13</a></li><li><a href="reports/2026-07-12.html">2026-07-12</a></li><li><a href="reports/2026-07-11.html">2026-07-11</a></li><li><a href="reports/2026-07-10.html">2026-07-10</a></li><li><a href="reports/2026-07-09.html">2026-07-09</a></li><li><a href="reports/2026-07-08.html">2026-07-08</a></li></ul></div>
+
+  <div class="footer">
+    Generated by Hermes Agent · 每日北京时间 12:00 自动生成 · 本看板为信息整合,非投资建议
+  </div>
+</div>
+</body>
+</html>
