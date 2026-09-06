@@ -1,0 +1,348 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>未来风口雷达 · 2026-08-27</title>
+<style>
+* { box-sizing: border-box; margin: 0; padding: 0; }
+:root {
+  --bg: #0a0e1a; --bg-2: #131826; --bg-3: #1c2235;
+  --text: #e8eaf0; --text-2: #9ca3af; --text-3: #6b7280;
+  --accent: #6366f1; --accent-2: #8b5cf6;
+  --border: rgba(255,255,255,0.08);
+  --shadow: 0 4px 24px rgba(0,0,0,0.3);
+}
+@media (prefers-color-scheme: light) {
+  :root { --bg: #f8fafc; --bg-2: #ffffff; --bg-3: #f1f5f9;
+          --text: #0f172a; --text-2: #475569; --text-3: #94a3b8;
+          --border: rgba(0,0,0,0.08);
+          --shadow: 0 4px 24px rgba(0,0,0,0.06); }
+}
+body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC",
+       "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
+       background: var(--bg); color: var(--text); line-height: 1.6;
+       min-height: 100vh; }
+.container { max-width: 1200px; margin: 0 auto; padding: 32px 20px 80px; }
+.hero { background: linear-gradient(135deg, var(--accent) 0%, var(--accent-2) 100%);
+        border-radius: 20px; padding: 40px 32px; margin-bottom: 32px;
+        color: #fff; box-shadow: var(--shadow); position: relative; overflow: hidden; }
+.hero::before { content: "📡"; position: absolute; top: -20px; right: -10px;
+                font-size: 200px; opacity: 0.12; transform: rotate(15deg); }
+.hero h1 { font-size: 32px; font-weight: 800; margin-bottom: 8px;
+          position: relative; letter-spacing: -0.5px; }
+.hero .sub { font-size: 16px; opacity: 0.92; position: relative; }
+.hero .meta { font-size: 13px; opacity: 0.75; margin-top: 12px; position: relative; }
+.section { margin-bottom: 36px; }
+.section h2 { font-size: 20px; font-weight: 700; margin-bottom: 18px;
+              color: var(--text); display: flex; align-items: center; gap: 10px; }
+.section h2 .badge { font-size: 11px; background: var(--accent); color: #fff;
+                    padding: 3px 10px; border-radius: 10px; font-weight: 600; }
+.grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+        gap: 18px; }
+.card { background: var(--bg-2); border: 1px solid var(--border);
+        border-radius: 14px; padding: 20px; box-shadow: var(--shadow);
+        transition: transform 0.15s, box-shadow 0.15s; }
+.card:hover { transform: translateY(-2px); box-shadow: 0 8px 32px rgba(0,0,0,0.4); }
+.card .title { font-size: 16px; font-weight: 700; margin-bottom: 8px; color: var(--text); }
+.card .desc { font-size: 13px; color: var(--text-2); line-height: 1.55; }
+.tag { display: inline-block; font-size: 11px; padding: 3px 10px;
+       border-radius: 10px; background: var(--bg-3); color: var(--text-2);
+       margin-right: 6px; margin-top: 4px; font-weight: 500; }
+.tag.heat { color: #fff; font-weight: 600; }
+.theme-card { background: var(--bg-2); border: 1px solid var(--border);
+              border-left: 3px solid var(--accent); border-radius: 12px;
+              padding: 18px 20px; box-shadow: var(--shadow); }
+.theme-card .name { font-size: 16px; font-weight: 700; margin-bottom: 8px; }
+.theme-card .evidence { font-size: 13px; color: var(--text-2); }
+.opp-card { background: var(--bg-2); border: 1px solid var(--border);
+            border-radius: 14px; padding: 22px; box-shadow: var(--shadow);
+            position: relative; }
+.opp-card .head { display: flex; align-items: flex-start; gap: 12px;
+                  margin-bottom: 12px; }
+.opp-card .icon { font-size: 32px; line-height: 1; flex-shrink: 0; }
+.opp-card .title { font-size: 17px; font-weight: 700; flex: 1; line-height: 1.4; }
+.opp-card .meta { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 12px; }
+.opp-card .meta .pill { font-size: 11px; padding: 4px 10px; border-radius: 12px;
+                       font-weight: 600; color: #fff; }
+.opp-card .rationale { font-size: 13.5px; color: var(--text-2); line-height: 1.65; }
+.flag-card { background: rgba(239,68,68,0.08); border: 1px solid rgba(239,68,68,0.3);
+             border-radius: 12px; padding: 14px 18px; }
+.flag-card .item { font-size: 13.5px; color: var(--text); margin: 4px 0; }
+.sources { background: var(--bg-2); border: 1px solid var(--border);
+           border-radius: 14px; padding: 18px 22px; }
+.sources h3 { font-size: 14px; font-weight: 700; margin-bottom: 12px; color: var(--text); }
+.sources .src { font-size: 12.5px; color: var(--text-2); padding: 4px 0;
+                border-bottom: 1px dashed var(--border); }
+.sources .src:last-child { border-bottom: none; }
+.sources .src .lbl { display: inline-block; min-width: 90px; font-weight: 600;
+                    color: var(--text); }
+.sources .src a { color: var(--accent); text-decoration: none; }
+.sources .src a:hover { text-decoration: underline; }
+.archives { background: var(--bg-2); border: 1px solid var(--border);
+            border-radius: 14px; padding: 18px 22px; margin-top: 24px; }
+.archives h3 { font-size: 14px; font-weight: 700; margin-bottom: 12px; }
+.archives ul { list-style: none; }
+.archives li { padding: 4px 0; font-size: 13px; }
+.archives a { color: var(--accent); text-decoration: none; }
+.archives a:hover { text-decoration: underline; }
+.footer { text-align: center; color: var(--text-3); font-size: 12px;
+          margin-top: 48px; padding-top: 24px; border-top: 1px solid var(--border); }
+@media (max-width: 640px) {
+  .hero h1 { font-size: 24px; }
+  .grid { grid-template-columns: 1fr; }
+  .opp-card .head { flex-direction: column; }
+}
+</style>
+</head>
+<body>
+<div class="container">
+  <div class="hero">
+    <h1>📡 未来风口雷达</h1>
+    <div class="sub">基于国际电商 / 国际局势 / 社交媒体 / 技术社区的实时信号</div>
+    <div class="meta">2026-08-27 12:01 北京时间 · 多源抓取 + LLM 机会分析</div>
+  </div>
+
+  <div class="section">
+    <h2>🌐 主流趋势主题 <span class="badge">AI 解读</span></h2>
+    <div class="grid">
+
+<div class="theme-card">
+  <div class="name">AI Agent安全与治理 <span class="tag heat" style="background:#f59e0b">升温中</span></div>
+  <div class="evidence">Meta 18亿美元儿童安全和解；OpenAI agents 意外对话导致 Hugging Face 被黑；Nvidia 收入翻倍显示AI需求持续</div>
+</div>
+
+<div class="theme-card">
+  <div class="name">便携式太阳能普及 <span class="tag heat" style="background:#f59e0b">升温中</span></div>
+  <div class="evidence">插电式太阳能板进入零售渠道；英国能源账单上涨4%至三年新高；Ofgem 宣布10月涨价</div>
+</div>
+
+<div class="theme-card">
+  <div class="name">AI编程工具平民化 <span class="tag heat" style="background:#ef4444">爆发期</span></div>
+  <div class="evidence">GitHub 上多个免费 Claude Code 替代品（如 free-claude-code）出现；AI 求职框架（ai-job-search）流行；Claude 插件官方目录发布</div>
+</div>
+
+<div class="theme-card">
+  <div class="name">个人AI第二大脑 <span class="tag heat" style="background:#f59e0b">升温中</span></div>
+  <div class="evidence">claude-obsidian 项目实现自组织AI第二大脑；openhuman 项目构建本地优先的个人记忆；GitHub 上多个相关技能库（如 garden-skills）</div>
+</div>
+
+<div class="theme-card">
+  <div class="name">太空经济基建加速 <span class="tag heat" style="background:#f59e0b">升温中</span></div>
+  <div class="evidence">SpaceX 计划建设1000亿美元发射设施；特斯拉在华大规模召回显示监管压力；太空相关创业机会增多</div>
+</div>
+    </div>
+  </div>
+
+  <div class="section">
+    <h2>💰 可落地的赚钱机会 <span class="badge">7 个</span></h2>
+    
+<div class="opp-card">
+  <div class="head">
+    <div class="icon">🤝</div>
+    <div class="title">AI Agent安全审计服务</div>
+  </div>
+  <div class="meta">
+    <span class="pill" style="background:var(--accent)">服务</span>
+    <span class="pill" style="background:#64748b">门槛 低(万元内)</span>
+    <span class="pill" style="background:#f59e0b">回本 3-6月</span>
+  </div>
+  <div class="rationale">随着AI Agent在企业中普及，安全漏洞频发（如Hugging Face事件）。为中小企业提供Agent行为审计、权限检查和合规报告，按次收费或订阅制。目标客户：已部署AI Agent的科技公司、金融和医疗行业。</div>
+</div>
+
+<div class="opp-card">
+  <div class="head">
+    <div class="icon">🔧</div>
+    <div class="title">便携式太阳能租赁平台</div>
+  </div>
+  <div class="meta">
+    <span class="pill" style="background:var(--accent)">硬件</span>
+    <span class="pill" style="background:#64748b">门槛 中(10-50万)</span>
+    <span class="pill" style="background:#f59e0b">回本 3-6月</span>
+  </div>
+  <div class="rationale">能源价格上涨，插电式太阳能板需求激增。建立租赁平台，向城市公寓住户出租阳台太阳能板，月租+安装费。目标客户：租房人群、高电费家庭。与物业合作，提供即插即用方案。</div>
+</div>
+
+<div class="opp-card">
+  <div class="head">
+    <div class="icon">⚙️</div>
+    <div class="title">AI求职自动化工具订阅</div>
+  </div>
+  <div class="meta">
+    <span class="pill" style="background:var(--accent)">SaaS</span>
+    <span class="pill" style="background:#64748b">门槛 低(万元内)</span>
+    <span class="pill" style="background:#10b981">回本 1-3月</span>
+  </div>
+  <div class="rationale">基于GitHub上的ai-job-search框架，开发面向求职者的AI自动申请工具，自动匹配职位、定制简历、模拟面试。订阅制（$19/月）。目标客户：应届生、转行者、求职困难群体。</div>
+</div>
+
+<div class="opp-card">
+  <div class="head">
+    <div class="icon">⚙️</div>
+    <div class="title">Claude Code插件市场</div>
+  </div>
+  <div class="meta">
+    <span class="pill" style="background:var(--accent)">SaaS</span>
+    <span class="pill" style="background:#64748b">门槛 低(万元内)</span>
+    <span class="pill" style="background:#10b981">回本 1-3月</span>
+  </div>
+  <div class="rationale">Anthropic官方插件目录发布，但社区插件需求旺盛。构建第三方插件市场，提供付费插件分发和定制开发服务。目标客户：使用Claude Code的开发者团队。抽成30%。</div>
+</div>
+
+<div class="opp-card">
+  <div class="head">
+    <div class="icon">🤝</div>
+    <div class="title">个人知识库AI化服务</div>
+  </div>
+  <div class="meta">
+    <span class="pill" style="background:var(--accent)">服务</span>
+    <span class="pill" style="background:#64748b">门槛 低(万元内)</span>
+    <span class="pill" style="background:#10b981">回本 1-3月</span>
+  </div>
+  <div class="rationale">基于claude-obsidian等开源项目，为知识工作者（作家、研究员、咨询师）搭建AI驱动的第二大脑，自动整理笔记、生成知识图谱。一次性搭建费+月维护费。目标客户：自由职业者、学术人员。</div>
+</div>
+
+<div class="opp-card">
+  <div class="head">
+    <div class="icon">🛒</div>
+    <div class="title">太空主题科普订阅盒</div>
+  </div>
+  <div class="meta">
+    <span class="pill" style="background:var(--accent)">电商</span>
+    <span class="pill" style="background:#64748b">门槛 低(万元内)</span>
+    <span class="pill" style="background:#f59e0b">回本 3-6月</span>
+  </div>
+  <div class="rationale">太空经济热度上升，但普通消费者接触有限。推出月度订阅盒，包含太空模型、AR互动卡片、科普手册，面向家庭和学校。目标客户：8-15岁儿童家长、STEM教育机构。</div>
+</div>
+
+<div class="opp-card">
+  <div class="head">
+    <div class="icon">⚙️</div>
+    <div class="title">AI儿童安全监控插件</div>
+  </div>
+  <div class="meta">
+    <span class="pill" style="background:var(--accent)">SaaS</span>
+    <span class="pill" style="background:#64748b">门槛 低(万元内)</span>
+    <span class="pill" style="background:#f59e0b">回本 3-6月</span>
+  </div>
+  <div class="rationale">Meta巨额和解凸显儿童网络安全问题。开发浏览器插件或家长控制工具，利用AI实时检测社交媒体中的欺凌、色情内容，并提供报告。订阅制（$5/月）。目标客户：有未成年子女的家庭。</div>
+</div>
+  </div>
+
+  <div class="section"><h2>🚫 伪风口预警</h2><div class="flag-card"><div class="item">⚠️ 通用AI聊天机器人套壳应用：市场已饱和，大厂免费提供，无差异化难盈利。</div><div class="item">⚠️ 太空旅游预订平台：门槛极高，普通人无法触及，且监管复杂，短期无现金流。</div><div class="item">⚠️ 基于Meta和解的儿童安全诉讼服务：法律风险高，需专业资质，不适合小团队。</div></div></div>
+
+  <div class="section">
+    <h2>📈 GitHub 风向标 <span class="badge">技术爆款</span></h2>
+    <div class="grid">
+
+<div class="card">
+  <div class="title"><a href="https://github.com/tt-a1i/archify" target="_blank" rel="noopener" style="color:inherit;text-decoration:none">tt-a1i / archify</a></div>
+  <div class="desc">Agent skill for beautiful, verifiable architecture, workflow, sequence, data-flow, and lifecycle diagrams—self-contained HTML with motion and crisp export.</div>
+</div>
+
+<div class="card">
+  <div class="title"><a href="https://github.com/freestylefly/awesome-gpt-image-2" target="_blank" rel="noopener" style="color:inherit;text-decoration:none">freestylefly / awesome-gpt-image-2</a></div>
+  <div class="desc">Prompt as Code | GPT-Image2 工业级提示词引擎与模板库，530+ 个案例逆向工程，20+ 套工业级模板，并提炼出Skills，持续更新中</div>
+</div>
+
+<div class="card">
+  <div class="title"><a href="https://github.com/anthropics/claude-plugins-official" target="_blank" rel="noopener" style="color:inherit;text-decoration:none">anthropics / claude-plugins-official</a></div>
+  <div class="desc">Official, Anthropic-managed directory of high quality Claude Code Plugins.</div>
+</div>
+
+<div class="card">
+  <div class="title"><a href="https://github.com/Alishahryar1/free-claude-code" target="_blank" rel="noopener" style="color:inherit;text-decoration:none">Alishahryar1 / free-claude-code</a></div>
+  <div class="desc">Use Claude Code, Codex, Pi, and OpenCode for free (1.3B+ free tokens) from your terminal, app, IDE, or phone like OpenClaw (voice supported + ToS friendly)</div>
+</div>
+
+<div class="card">
+  <div class="title"><a href="https://github.com/MadsLorentzen/ai-job-search" target="_blank" rel="noopener" style="color:inherit;text-decoration:none">MadsLorentzen / ai-job-search</a></div>
+  <div class="desc">The job search that runs on your machine. AI job application framework built on Claude Code: evaluate postings, tailor CVs, write cover letters, prep interviews. Fork it and own it.</div>
+</div>
+
+<div class="card">
+  <div class="title"><a href="https://github.com/AgriciDaniel/claude-obsidian" target="_blank" rel="noopener" style="color:inherit;text-decoration:none">AgriciDaniel / claude-obsidian</a></div>
+  <div class="desc">Self-organizing AI second brain for Obsidian + Claude Code. Drop any source and Claude reads, links, and files it into one connected knowledge graph of plain Markdown you own. AI note-taking, personal</div>
+</div>
+
+<div class="card">
+  <div class="title"><a href="https://github.com/basecamp/omarchy" target="_blank" rel="noopener" style="color:inherit;text-decoration:none">basecamp / omarchy</a></div>
+  <div class="desc">Beautiful, Modern &amp;amp; Opinionated Linux</div>
+</div>
+
+<div class="card">
+  <div class="title"><a href="https://github.com/rohitg00/ai-engineering-from-scratch" target="_blank" rel="noopener" style="color:inherit;text-decoration:none">rohitg00 / ai-engineering-from-scratch</a></div>
+  <div class="desc">Learn it. Build it. Ship it for others.</div>
+</div>
+
+<div class="card">
+  <div class="title"><a href="https://github.com/tinyhumansai/openhuman" target="_blank" rel="noopener" style="color:inherit;text-decoration:none">tinyhumansai / openhuman</a></div>
+  <div class="desc">Your Personal AI super intelligence. A brain that builds a local-first memory of your life, a fantastic orchestrator of agent fleets and workflows, and a deep researcher.</div>
+</div>
+</div>
+  </div>
+
+  <div class="section">
+    <h2>📰 BBC 商业头条 <span class="badge">国际局势</span></h2>
+    <div class="grid">
+
+<div class="card">
+  <div class="title">Meta&#x27;s $18bn settlement may hasten reckoning for social media on child safety</div>
+  <div class="desc">来源: BBC Business</div>
+</div>
+
+<div class="card">
+  <div class="title">Plug-in solar panels are coming to a shop near you - here&#x27;s what to know</div>
+  <div class="desc">来源: BBC Business</div>
+</div>
+
+<div class="card">
+  <div class="title">Experts&#x27; five tips to make a rented property feel like home</div>
+  <div class="desc">来源: BBC Business</div>
+</div>
+
+<div class="card">
+  <div class="title">Unexpected chat between OpenAI agents led to Hugging Face hack</div>
+  <div class="desc">来源: BBC Business</div>
+</div>
+
+<div class="card">
+  <div class="title">Nvidia revenue doubles on continued AI demand</div>
+  <div class="desc">来源: BBC Business</div>
+</div>
+
+<div class="card">
+  <div class="title">How Dolly Parton&#x27;s business savvy helped her succeed far beyond the charts</div>
+  <div class="desc">来源: BBC Business</div>
+</div>
+
+<div class="card">
+  <div class="title">Meta to pay up to $18bn to settle claims its platforms harm children</div>
+  <div class="desc">来源: BBC Business</div>
+</div>
+
+<div class="card">
+  <div class="title">Household energy bills to hit three-year high as Ofgem announces 4% rise from October</div>
+  <div class="desc">来源: BBC Business</div>
+</div>
+
+<div class="card">
+  <div class="title">Back to school: How parents can save on uniform costs</div>
+  <div class="desc">来源: BBC Business</div>
+</div>
+</div>
+  </div>
+
+  <div class="section">
+    <h2>📡 数据源</h2>
+    <div class="sources"><h3>📡 本轮抓取源</h3><div class="src"><span class="lbl">BBC Business</span><a href="https://www.bbc.com/news/business" target="_blank" rel="noopener">20 条</a></div><div class="src"><span class="lbl">GitHub Trending</span><a href="https://github.com/trending" target="_blank" rel="noopener">15 条</a></div></div>
+  </div>
+
+  <div class="archives"><h3>🗂 历史报告</h3><ul><li><a href="reports/2026-08-27.html">2026-08-27</a></li><li><a href="reports/2026-08-26.html">2026-08-26</a></li><li><a href="reports/2026-08-25.html">2026-08-25</a></li><li><a href="reports/2026-08-24.html">2026-08-24</a></li><li><a href="reports/2026-08-23.html">2026-08-23</a></li><li><a href="reports/2026-08-22.html">2026-08-22</a></li><li><a href="reports/2026-08-21.html">2026-08-21</a></li><li><a href="reports/2026-08-20.html">2026-08-20</a></li><li><a href="reports/2026-08-19.html">2026-08-19</a></li><li><a href="reports/2026-08-18.html">2026-08-18</a></li><li><a href="reports/2026-08-17.html">2026-08-17</a></li><li><a href="reports/2026-08-16.html">2026-08-16</a></li><li><a href="reports/2026-08-15.html">2026-08-15</a></li><li><a href="reports/2026-08-14.html">2026-08-14</a></li><li><a href="reports/2026-08-13.html">2026-08-13</a></li><li><a href="reports/2026-08-12.html">2026-08-12</a></li><li><a href="reports/2026-08-11.html">2026-08-11</a></li><li><a href="reports/2026-08-10.html">2026-08-10</a></li><li><a href="reports/2026-08-09.html">2026-08-09</a></li><li><a href="reports/2026-08-08.html">2026-08-08</a></li><li><a href="reports/2026-08-07.html">2026-08-07</a></li><li><a href="reports/2026-08-06.html">2026-08-06</a></li><li><a href="reports/2026-08-05.html">2026-08-05</a></li><li><a href="reports/2026-08-04.html">2026-08-04</a></li><li><a href="reports/2026-08-03.html">2026-08-03</a></li><li><a href="reports/2026-08-02.html">2026-08-02</a></li><li><a href="reports/2026-08-01.html">2026-08-01</a></li><li><a href="reports/2026-07-31.html">2026-07-31</a></li><li><a href="reports/2026-07-30.html">2026-07-30</a></li><li><a href="reports/2026-07-29.html">2026-07-29</a></li></ul></div>
+
+  <div class="footer">
+    Generated by Hermes Agent · 每日北京时间 12:00 自动生成 · 本看板为信息整合,非投资建议
+  </div>
+</div>
+</body>
+</html>

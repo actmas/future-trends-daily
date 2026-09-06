@@ -1,0 +1,330 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>未来风口雷达 · 2026-09-06</title>
+<style>
+* { box-sizing: border-box; margin: 0; padding: 0; }
+:root {
+  --bg: #0a0e1a; --bg-2: #131826; --bg-3: #1c2235;
+  --text: #e8eaf0; --text-2: #9ca3af; --text-3: #6b7280;
+  --accent: #6366f1; --accent-2: #8b5cf6;
+  --border: rgba(255,255,255,0.08);
+  --shadow: 0 4px 24px rgba(0,0,0,0.3);
+}
+@media (prefers-color-scheme: light) {
+  :root { --bg: #f8fafc; --bg-2: #ffffff; --bg-3: #f1f5f9;
+          --text: #0f172a; --text-2: #475569; --text-3: #94a3b8;
+          --border: rgba(0,0,0,0.08);
+          --shadow: 0 4px 24px rgba(0,0,0,0.06); }
+}
+body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC",
+       "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
+       background: var(--bg); color: var(--text); line-height: 1.6;
+       min-height: 100vh; }
+.container { max-width: 1200px; margin: 0 auto; padding: 32px 20px 80px; }
+.hero { background: linear-gradient(135deg, var(--accent) 0%, var(--accent-2) 100%);
+        border-radius: 20px; padding: 40px 32px; margin-bottom: 32px;
+        color: #fff; box-shadow: var(--shadow); position: relative; overflow: hidden; }
+.hero::before { content: "📡"; position: absolute; top: -20px; right: -10px;
+                font-size: 200px; opacity: 0.12; transform: rotate(15deg); }
+.hero h1 { font-size: 32px; font-weight: 800; margin-bottom: 8px;
+          position: relative; letter-spacing: -0.5px; }
+.hero .sub { font-size: 16px; opacity: 0.92; position: relative; }
+.hero .meta { font-size: 13px; opacity: 0.75; margin-top: 12px; position: relative; }
+.section { margin-bottom: 36px; }
+.section h2 { font-size: 20px; font-weight: 700; margin-bottom: 18px;
+              color: var(--text); display: flex; align-items: center; gap: 10px; }
+.section h2 .badge { font-size: 11px; background: var(--accent); color: #fff;
+                    padding: 3px 10px; border-radius: 10px; font-weight: 600; }
+.grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+        gap: 18px; }
+.card { background: var(--bg-2); border: 1px solid var(--border);
+        border-radius: 14px; padding: 20px; box-shadow: var(--shadow);
+        transition: transform 0.15s, box-shadow 0.15s; }
+.card:hover { transform: translateY(-2px); box-shadow: 0 8px 32px rgba(0,0,0,0.4); }
+.card .title { font-size: 16px; font-weight: 700; margin-bottom: 8px; color: var(--text); }
+.card .desc { font-size: 13px; color: var(--text-2); line-height: 1.55; }
+.tag { display: inline-block; font-size: 11px; padding: 3px 10px;
+       border-radius: 10px; background: var(--bg-3); color: var(--text-2);
+       margin-right: 6px; margin-top: 4px; font-weight: 500; }
+.tag.heat { color: #fff; font-weight: 600; }
+.theme-card { background: var(--bg-2); border: 1px solid var(--border);
+              border-left: 3px solid var(--accent); border-radius: 12px;
+              padding: 18px 20px; box-shadow: var(--shadow); }
+.theme-card .name { font-size: 16px; font-weight: 700; margin-bottom: 8px; }
+.theme-card .evidence { font-size: 13px; color: var(--text-2); }
+.opp-card { background: var(--bg-2); border: 1px solid var(--border);
+            border-radius: 14px; padding: 22px; box-shadow: var(--shadow);
+            position: relative; }
+.opp-card .head { display: flex; align-items: flex-start; gap: 12px;
+                  margin-bottom: 12px; }
+.opp-card .icon { font-size: 32px; line-height: 1; flex-shrink: 0; }
+.opp-card .title { font-size: 17px; font-weight: 700; flex: 1; line-height: 1.4; }
+.opp-card .meta { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 12px; }
+.opp-card .meta .pill { font-size: 11px; padding: 4px 10px; border-radius: 12px;
+                       font-weight: 600; color: #fff; }
+.opp-card .rationale { font-size: 13.5px; color: var(--text-2); line-height: 1.65; }
+.flag-card { background: rgba(239,68,68,0.08); border: 1px solid rgba(239,68,68,0.3);
+             border-radius: 12px; padding: 14px 18px; }
+.flag-card .item { font-size: 13.5px; color: var(--text); margin: 4px 0; }
+.sources { background: var(--bg-2); border: 1px solid var(--border);
+           border-radius: 14px; padding: 18px 22px; }
+.sources h3 { font-size: 14px; font-weight: 700; margin-bottom: 12px; color: var(--text); }
+.sources .src { font-size: 12.5px; color: var(--text-2); padding: 4px 0;
+                border-bottom: 1px dashed var(--border); }
+.sources .src:last-child { border-bottom: none; }
+.sources .src .lbl { display: inline-block; min-width: 90px; font-weight: 600;
+                    color: var(--text); }
+.sources .src a { color: var(--accent); text-decoration: none; }
+.sources .src a:hover { text-decoration: underline; }
+.archives { background: var(--bg-2); border: 1px solid var(--border);
+            border-radius: 14px; padding: 18px 22px; margin-top: 24px; }
+.archives h3 { font-size: 14px; font-weight: 700; margin-bottom: 12px; }
+.archives ul { list-style: none; }
+.archives li { padding: 4px 0; font-size: 13px; }
+.archives a { color: var(--accent); text-decoration: none; }
+.archives a:hover { text-decoration: underline; }
+.footer { text-align: center; color: var(--text-3); font-size: 12px;
+          margin-top: 48px; padding-top: 24px; border-top: 1px solid var(--border); }
+@media (max-width: 640px) {
+  .hero h1 { font-size: 24px; }
+  .grid { grid-template-columns: 1fr; }
+  .opp-card .head { flex-direction: column; }
+}
+</style>
+</head>
+<body>
+<div class="container">
+  <div class="hero">
+    <h1>📡 未来风口雷达</h1>
+    <div class="sub">基于国际电商 / 国际局势 / 社交媒体 / 技术社区的实时信号</div>
+    <div class="meta">2026-09-06 12:01 北京时间 · 多源抓取 + LLM 机会分析</div>
+  </div>
+
+  <div class="section">
+    <h2>🌐 主流趋势主题 <span class="badge">AI 解读</span></h2>
+    <div class="grid">
+
+<div class="theme-card">
+  <div class="name">AI Agent技能工程化 <span class="tag heat" style="background:#ef4444">爆发期</span></div>
+  <div class="evidence">GitHub Trending 多个仓库聚焦 Agent Skills（如 anthropics/skills、mattpocock/skills）；humanlayer/skills 和 blader/humanizer 强调去除 AI 痕迹与真实工程技能；ECG 和 ponytail 等优化 agent 性能与行为</div>
+</div>
+
+<div class="theme-card">
+  <div class="name">能源与物流成本飙升 <span class="tag heat" style="background:#f59e0b">升温中</span></div>
+  <div class="evidence">英国汽油价格达伊朗战争以来最高；美国柴油价格创历史新高；极端天气导致官方建议囤积食物</div>
+</div>
+
+<div class="theme-card">
+  <div class="name">新兴市场消费升级 <span class="tag heat" style="background:#f59e0b">升温中</span></div>
+  <div class="evidence">印度牛油果从‘狗水果’变受欢迎；印度互联网繁荣但面临海底电缆问题；阿根廷威胁制裁石油公司并重申马岛主权</div>
+</div>
+
+<div class="theme-card">
+  <div class="name">开源替代与无登录工具 <span class="tag heat" style="background:#f59e0b">升温中</span></div>
+  <div class="evidence">BraveOPotato/FckSignups 列出无需注册的开源工具；opencode 等开源编码 agent 流行</div>
+</div>
+    </div>
+  </div>
+
+  <div class="section">
+    <h2>💰 可落地的赚钱机会 <span class="badge">6 个</span></h2>
+    
+<div class="opp-card">
+  <div class="head">
+    <div class="icon">💡</div>
+    <div class="title">企业级Agent技能包市场</div>
+  </div>
+  <div class="meta">
+    <span class="pill" style="background:var(--accent)">AI/SaaS</span>
+    <span class="pill" style="background:#64748b">门槛 低(万元内)</span>
+    <span class="pill" style="background:#10b981">回本 1-3月</span>
+  </div>
+  <div class="rationale">随着 anthropic 等发布 Agent Skills，企业需要现成的技能库来部署 agent。卖：针对特定行业（如客服、财务）的预构建技能包（含提示词、工具链、评估集）。给：中小企业的 IT 或运营部门。收：按技能包订阅费或一次性授权。个人可基于开源技能库定制化，快速交付。</div>
+</div>
+
+<div class="opp-card">
+  <div class="head">
+    <div class="icon">🤝</div>
+    <div class="title">柴油成本对冲与节能咨询</div>
+  </div>
+  <div class="meta">
+    <span class="pill" style="background:var(--accent)">服务</span>
+    <span class="pill" style="background:#64748b">门槛 低(万元内)</span>
+    <span class="pill" style="background:#10b981">回本 1-3月</span>
+  </div>
+  <div class="rationale">美国柴油价格历史新高，物流公司利润承压。卖：柴油采购优化方案（如批量议价、路线优化）和节油驾驶培训。给：中小物流车队。收：按节省金额的 10-20% 分成。个人可先用数据分析工具提供审计报告，再推荐节能设备。</div>
+</div>
+
+<div class="opp-card">
+  <div class="head">
+    <div class="icon">🛒</div>
+    <div class="title">印度牛油果供应链服务</div>
+  </div>
+  <div class="meta">
+    <span class="pill" style="background:var(--accent)">电商</span>
+    <span class="pill" style="background:#64748b">门槛 中(10-50万)</span>
+    <span class="pill" style="background:#64748b">回本 6-12月</span>
+  </div>
+  <div class="rationale">印度牛油果需求爆发但本地供应不足。卖：从墨西哥或秘鲁进口牛油果，通过电商平台（如 BigBasket）销售，或向印度餐厅供应。给：印度一二线城市的中产阶级消费者和餐饮业。收：批发差价。需解决冷链物流，可先与当地进口商合作。</div>
+</div>
+
+<div class="opp-card">
+  <div class="head">
+    <div class="icon">⚙️</div>
+    <div class="title">无登录工具聚合平台</div>
+  </div>
+  <div class="meta">
+    <span class="pill" style="background:var(--accent)">SaaS</span>
+    <span class="pill" style="background:#64748b">门槛 低(万元内)</span>
+    <span class="pill" style="background:#f59e0b">回本 3-6月</span>
+  </div>
+  <div class="rationale">用户厌倦注册，FckSignups 列表受欢迎。卖：一个垂直领域的无登录工具导航站（如设计、写作），提供即时使用。给：自由职业者和学生。收：广告和推荐佣金。个人可快速搭建，利用 SEO 获取流量。</div>
+</div>
+
+<div class="opp-card">
+  <div class="head">
+    <div class="icon">🛒</div>
+    <div class="title">极端天气家庭应急包订阅</div>
+  </div>
+  <div class="meta">
+    <span class="pill" style="background:var(--accent)">电商</span>
+    <span class="pill" style="background:#64748b">门槛 低(万元内)</span>
+    <span class="pill" style="background:#f59e0b">回本 3-6月</span>
+  </div>
+  <div class="rationale">政府建议囤货应对极端天气，但民众缺乏准备。卖：按月订阅的应急食品和用品包（含能量棒、水、急救包）。给：欧美郊区家庭。收：月费制。可先与本地供应商合作，采用 DTC 模式。</div>
+</div>
+
+<div class="opp-card">
+  <div class="head">
+    <div class="icon">📹</div>
+    <div class="title">AI去人类化写作服务</div>
+  </div>
+  <div class="meta">
+    <span class="pill" style="background:var(--accent)">内容</span>
+    <span class="pill" style="background:#64748b">门槛 低(万元内)</span>
+    <span class="pill" style="background:#10b981">回本 1-3月</span>
+  </div>
+  <div class="rationale">blader/humanizer 技能显示市场需要去除 AI 痕迹的内容。卖：为 SEO 机构或内容创作者提供‘人性化’改写服务，使用专门工具确保文本通过 AI 检测。给：需要大量内容的电商和营销公司。收：按字计费。个人可掌握工具后提供外包。</div>
+</div>
+  </div>
+
+  <div class="section"><h2>🚫 伪风口预警</h2><div class="flag-card"><div class="item">⚠️ 通用AI聊天机器人创业：大厂免费竞争，无差异化难盈利。</div><div class="item">⚠️ Xbox云游戏相关创业：巨头限流，生态封闭，个人难切入。</div><div class="item">⚠️ 阿根廷石油制裁相关套利：政治风险极高，普通人无法承受。</div></div></div>
+
+  <div class="section">
+    <h2>📈 GitHub 风向标 <span class="badge">技术爆款</span></h2>
+    <div class="grid">
+
+<div class="card">
+  <div class="title"><a href="https://github.com/mattpocock/skills" target="_blank" rel="noopener" style="color:inherit;text-decoration:none">mattpocock / skills</a></div>
+  <div class="desc">Skills for Real Engineers. Straight from my .agents directory.</div>
+</div>
+
+<div class="card">
+  <div class="title"><a href="https://github.com/affaan-m/ECC" target="_blank" rel="noopener" style="color:inherit;text-decoration:none">affaan-m / ECC</a></div>
+  <div class="desc">The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.</div>
+</div>
+
+<div class="card">
+  <div class="title"><a href="https://github.com/DietrichGebert/ponytail" target="_blank" rel="noopener" style="color:inherit;text-decoration:none">DietrichGebert / ponytail</a></div>
+  <div class="desc">Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.</div>
+</div>
+
+<div class="card">
+  <div class="title"><a href="https://github.com/NousResearch/hermes-agent" target="_blank" rel="noopener" style="color:inherit;text-decoration:none">NousResearch / hermes-agent</a></div>
+  <div class="desc">The agent that grows with you</div>
+</div>
+
+<div class="card">
+  <div class="title"><a href="https://github.com/fmtlib/fmt" target="_blank" rel="noopener" style="color:inherit;text-decoration:none">fmtlib / fmt</a></div>
+  <div class="desc">A modern formatting library</div>
+</div>
+
+<div class="card">
+  <div class="title"><a href="https://github.com/anthropics/skills" target="_blank" rel="noopener" style="color:inherit;text-decoration:none">anthropics / skills</a></div>
+  <div class="desc">Public repository for Agent Skills</div>
+</div>
+
+<div class="card">
+  <div class="title"><a href="https://github.com/cathrynlavery/diagram-design" target="_blank" rel="noopener" style="color:inherit;text-decoration:none">cathrynlavery / diagram-design</a></div>
+  <div class="desc">38 editorial diagram types for Claude Code, Codex, and Pi. Self-contained HTML + SVG. No shadows. No Mermaid slop.</div>
+</div>
+
+<div class="card">
+  <div class="title"><a href="https://github.com/anomalyco/opencode" target="_blank" rel="noopener" style="color:inherit;text-decoration:none">anomalyco / opencode</a></div>
+  <div class="desc">The open source coding agent.</div>
+</div>
+
+<div class="card">
+  <div class="title"><a href="https://github.com/ruvnet/ruflo" target="_blank" rel="noopener" style="color:inherit;text-decoration:none">ruvnet / ruflo</a></div>
+  <div class="desc">🌊 The original agent meta-harness. Deploy intelligent multi-player swarms, coordinate autonomous workflows, and build conversational AI systems. Features adaptive memory, self-learning intelligence, R</div>
+</div>
+</div>
+  </div>
+
+  <div class="section">
+    <h2>📰 BBC 商业头条 <span class="badge">国际局势</span></h2>
+    <div class="grid">
+
+<div class="card">
+  <div class="title">Stock up on food to prepare for extreme weather, minister says</div>
+  <div class="desc">来源: BBC Business</div>
+</div>
+
+<div class="card">
+  <div class="title">Trump calls for interest rate cut after jobs figures raise hike bets</div>
+  <div class="desc">来源: BBC Business</div>
+</div>
+
+<div class="card">
+  <div class="title">Controversial Jackdaw gas field set to be approved in weeks, sources say</div>
+  <div class="desc">来源: BBC Business</div>
+</div>
+
+<div class="card">
+  <div class="title">Prosecco, cakes and beauty products - how to get birthday freebies and why there&#x27;s a catch</div>
+  <div class="desc">来源: BBC Business</div>
+</div>
+
+<div class="card">
+  <div class="title">UK petrol prices hit highest level since Iran war began</div>
+  <div class="desc">来源: BBC Business</div>
+</div>
+
+<div class="card">
+  <div class="title">From &#x27;dog fruit&#x27; to darling: India&#x27;s avocado boom</div>
+  <div class="desc">来源: BBC Business</div>
+</div>
+
+<div class="card">
+  <div class="title">Volkswagen board approves plan to cut another 50,000 jobs</div>
+  <div class="desc">来源: BBC Business</div>
+</div>
+
+<div class="card">
+  <div class="title">Xbox caps cloud gaming at 15 hours a month for Game Pass subscribers</div>
+  <div class="desc">来源: BBC Business</div>
+</div>
+
+<div class="card">
+  <div class="title">&#x27;I lost my savings after a job interview scam&#x27;</div>
+  <div class="desc">来源: BBC Business</div>
+</div>
+</div>
+  </div>
+
+  <div class="section">
+    <h2>📡 数据源</h2>
+    <div class="sources"><h3>📡 本轮抓取源</h3><div class="src"><span class="lbl">BBC Business</span><a href="https://www.bbc.com/news/business" target="_blank" rel="noopener">20 条</a></div><div class="src"><span class="lbl">GitHub Trending</span><a href="https://github.com/trending" target="_blank" rel="noopener">15 条</a></div></div>
+  </div>
+
+  <div class="archives"><h3>🗂 历史报告</h3><ul><li><a href="reports/2026-09-06.html">2026-09-06</a></li><li><a href="reports/2026-09-05.html">2026-09-05</a></li><li><a href="reports/2026-09-04.html">2026-09-04</a></li><li><a href="reports/2026-09-03.html">2026-09-03</a></li><li><a href="reports/2026-09-02.html">2026-09-02</a></li><li><a href="reports/2026-09-01.html">2026-09-01</a></li><li><a href="reports/2026-08-31.html">2026-08-31</a></li><li><a href="reports/2026-08-30.html">2026-08-30</a></li><li><a href="reports/2026-08-29.html">2026-08-29</a></li><li><a href="reports/2026-08-28.html">2026-08-28</a></li><li><a href="reports/2026-08-27.html">2026-08-27</a></li><li><a href="reports/2026-08-26.html">2026-08-26</a></li><li><a href="reports/2026-08-25.html">2026-08-25</a></li><li><a href="reports/2026-08-24.html">2026-08-24</a></li><li><a href="reports/2026-08-23.html">2026-08-23</a></li><li><a href="reports/2026-08-22.html">2026-08-22</a></li><li><a href="reports/2026-08-21.html">2026-08-21</a></li><li><a href="reports/2026-08-20.html">2026-08-20</a></li><li><a href="reports/2026-08-19.html">2026-08-19</a></li><li><a href="reports/2026-08-18.html">2026-08-18</a></li><li><a href="reports/2026-08-17.html">2026-08-17</a></li><li><a href="reports/2026-08-16.html">2026-08-16</a></li><li><a href="reports/2026-08-15.html">2026-08-15</a></li><li><a href="reports/2026-08-14.html">2026-08-14</a></li><li><a href="reports/2026-08-13.html">2026-08-13</a></li><li><a href="reports/2026-08-12.html">2026-08-12</a></li><li><a href="reports/2026-08-11.html">2026-08-11</a></li><li><a href="reports/2026-08-10.html">2026-08-10</a></li><li><a href="reports/2026-08-09.html">2026-08-09</a></li><li><a href="reports/2026-08-08.html">2026-08-08</a></li></ul></div>
+
+  <div class="footer">
+    Generated by Hermes Agent · 每日北京时间 12:00 自动生成 · 本看板为信息整合,非投资建议
+  </div>
+</div>
+</body>
+</html>
